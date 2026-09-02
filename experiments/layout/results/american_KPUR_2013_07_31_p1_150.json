@@ -1,0 +1,865 @@
+{
+  "page_id": "KPUR_2013_07_31_p1",
+  "page_index": 1,
+  "split": "development",
+  "source": "pdfs/KPUR_2013_07_31.pdf",
+  "source_sha256": "e576cce6abc4cfd5b36459bab5f5b2e7587abf2f1660f2fd4fe21234f686113a",
+  "dpi": 150,
+  "image": "tmp/layout/images/KPUR_2013_07_31_p1_150.png",
+  "image_sha256": "795da140184703147a85efa5a7b5bd2760806e8b63232dbae7fe5d6d2744823f",
+  "image_size": [
+    1971,
+    3100
+  ],
+  "page_size_pt": [
+    946,
+    1488
+  ],
+  "native_char_count": 8286,
+  "native_rule_count": 22,
+  "model": "american",
+  "status": "ok",
+  "settings": {
+    "revision": "f307e5cec224fed5977b080c4f170d89c93ae3ba",
+    "confidence": 0.01,
+    "iou": 0.1,
+    "agnostic_nms": true,
+    "max_det": 2000,
+    "coordinate_postprocessing": "ultralytics scale_boxes (clips to image)"
+  },
+  "checkpoint_sha256": "045b2e5588e53c700490730244bdc3e8ff21e903aff1c2af9b169dcdb1d9155e",
+  "input_tensor_hw": [
+    1280,
+    1280
+  ],
+  "inference_and_load_seconds": 3.4288019579835236,
+  "raw_tensors": "tmp/layout/raw/american_KPUR_2013_07_31_p1_150.npz",
+  "regions": [
+    {
+      "region_id": "r000",
+      "label": "photograph",
+      "score": 0.9722840785980225,
+      "bbox_pixels": [
+        13.344517707824707,
+        472.24627685546875,
+        958.9428100585938,
+        1066.92333984375
+      ],
+      "order": null,
+      "bbox": [
+        6.4048268653486415,
+        226.678212890625,
+        460.25362674552497,
+        512.123203125
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r001",
+      "label": "article",
+      "score": 0.9517129063606262,
+      "bbox_pixels": [
+        652.55322265625,
+        2625.8896484375,
+        957.6520385742188,
+        3042.048828125
+      ],
+      "order": null,
+      "bbox": [
+        313.19906069650557,
+        1260.42703125,
+        459.6341088235469,
+        1460.1834375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r002",
+      "label": "article",
+      "score": 0.9498066902160645,
+      "bbox_pixels": [
+        329.659423828125,
+        2626.8349609375,
+        626.6115112304688,
+        3044.858154296875
+      ],
+      "order": null,
+      "bbox": [
+        158.2231430448535,
+        1260.88078125,
+        300.74809214816,
+        1461.5319140625
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r003",
+      "label": "article",
+      "score": 0.9473319053649902,
+      "bbox_pixels": [
+        265.88726806640625,
+        1518.958984375,
+        482.00885009765625,
+        2127.568115234375
+      ],
+      "order": null,
+      "bbox": [
+        127.61509669752425,
+        729.1003125,
+        231.3446840144002,
+        1021.2326953125
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r004",
+      "label": "article",
+      "score": 0.9433664679527283,
+      "bbox_pixels": [
+        5.6952643394470215,
+        2671.287109375,
+        310.7418518066406,
+        3047.886962890625
+      ],
+      "order": null,
+      "bbox": [
+        2.733495720505775,
+        1282.2178125,
+        149.14347631105124,
+        1462.9857421875
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r005",
+      "label": "article",
+      "score": 0.9345806837081909,
+      "bbox_pixels": [
+        5.064333915710449,
+        1341.27978515625,
+        234.85890197753906,
+        1925.78125
+      ],
+      "order": null,
+      "bbox": [
+        2.4306747256530112,
+        643.814296875,
+        112.72274037075188,
+        924.375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r006",
+      "label": "article",
+      "score": 0.9329429864883423,
+      "bbox_pixels": [
+        739.1635131835938,
+        1482.684814453125,
+        957.5722045898438,
+        2126.710205078125
+      ],
+      "order": null,
+      "bbox": [
+        354.7684847649314,
+        711.6887109375,
+        459.5957917513913,
+        1020.8208984375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r007",
+      "label": "article",
+      "score": 0.9310450553894043,
+      "bbox_pixels": [
+        290.84954833984375,
+        2260.053955078125,
+        607.3688354492188,
+        2448.498291015625
+      ],
+      "order": null,
+      "bbox": [
+        139.59597804641916,
+        1084.8258984375,
+        291.51238880515524,
+        1175.2791796875
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r008",
+      "label": "article",
+      "score": 0.9252200126647949,
+      "bbox_pixels": [
+        502.46783447265625,
+        1917.4205322265625,
+        721.48681640625,
+        2125.64599609375
+      ],
+      "order": null,
+      "bbox": [
+        241.16416611422264,
+        920.36185546875,
+        346.2843877830099,
+        1020.310078125
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r009",
+      "label": "article",
+      "score": 0.9244345426559448,
+      "bbox_pixels": [
+        620.912353515625,
+        2260.919189453125,
+        940.7349853515625,
+        2448.687744140625
+      ],
+      "order": null,
+      "bbox": [
+        298.01272776549024,
+        1085.2412109375,
+        451.5146099150574,
+        1175.3701171875
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r010",
+      "label": "headline",
+      "score": 0.9128199815750122,
+      "bbox_pixels": [
+        294.7908630371094,
+        1206.7568359375,
+        929.974609375,
+        1458.3084716796875
+      ],
+      "order": null,
+      "bbox": [
+        141.4876491289221,
+        579.24328125,
+        446.3500661941908,
+        699.98806640625
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r011",
+      "label": "article",
+      "score": 0.9092774391174316,
+      "bbox_pixels": [
+        502.52191162109375,
+        1482.753662109375,
+        717.48681640625,
+        1669.982421875
+      ],
+      "order": null,
+      "bbox": [
+        241.19012095056047,
+        711.7217578125,
+        344.3645501371449,
+        801.5915625
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r012",
+      "label": "headline",
+      "score": 0.8878573179244995,
+      "bbox_pixels": [
+        6.618471145629883,
+        1206.7193603515625,
+        226.03733825683594,
+        1325.8603515625
+      ],
+      "order": null,
+      "bbox": [
+        3.176597515862947,
+        579.22529296875,
+        108.48874783915109,
+        636.41296875
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r013",
+      "label": "cartoon_or_advertisement",
+      "score": 0.885370671749115,
+      "bbox_pixels": [
+        510.5854797363281,
+        1689.2635498046875,
+        720.2221069335938,
+        1894.8450927734375
+      ],
+      "order": null,
+      "bbox": [
+        245.06030635746646,
+        810.84650390625,
+        345.677378568838,
+        909.52564453125
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r014",
+      "label": "cartoon_or_advertisement",
+      "score": 0.8542735576629639,
+      "bbox_pixels": [
+        1010.1690673828125,
+        492.28070068359375,
+        1953.0689697265625,
+        1542.4814453125
+      ],
+      "order": null,
+      "bbox": [
+        484.8401510624762,
+        236.294736328125,
+        937.3938332629772,
+        740.39109375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r015",
+      "label": "article",
+      "score": 0.8511748313903809,
+      "bbox_pixels": [
+        1661.0535888671875,
+        1187.8516845703125,
+        1916.3048095703125,
+        1512.6868896484375
+      ],
+      "order": null,
+      "bbox": [
+        797.2383029266156,
+        570.16880859375,
+        919.7485285913322,
+        726.08970703125
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r016",
+      "label": "headline",
+      "score": 0.8303344249725342,
+      "bbox_pixels": [
+        307.0119934082031,
+        2163.4375,
+        925.6043090820312,
+        2248.66259765625
+      ],
+      "order": null,
+      "bbox": [
+        147.3532956692847,
+        1038.45,
+        444.25249943764663,
+        1079.358046875
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r017",
+      "label": "headline",
+      "score": 0.768872857093811,
+      "bbox_pixels": [
+        121.12982177734375,
+        2486.585205078125,
+        854.3619384765625,
+        2610.49560546875
+      ],
+      "order": null,
+      "bbox": [
+        58.137397971266964,
+        1193.5608984375,
+        410.05905317038463,
+        1253.037890625
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r018",
+      "label": "cartoon_or_advertisement",
+      "score": 0.7456416487693787,
+      "bbox_pixels": [
+        11.74740219116211,
+        1959.328857421875,
+        240.00967407226562,
+        2458.897705078125
+      ],
+      "order": null,
+      "bbox": [
+        5.638276241927628,
+        940.4778515625,
+        115.19490191393368,
+        1180.2708984375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r019",
+      "label": "article",
+      "score": 0.7273181080818176,
+      "bbox_pixels": [
+        1319.0494384765625,
+        1256.9959716796875,
+        1606.860595703125,
+        1528.87158203125
+      ],
+      "order": null,
+      "bbox": [
+        633.0901921861127,
+        603.35806640625,
+        771.227865821997,
+        733.858359375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r020",
+      "label": "newspaper_header",
+      "score": 0.7129460573196411,
+      "bbox_pixels": [
+        1.9861030578613281,
+        70.6146011352539,
+        1951.7376708984375,
+        453.998046875
+      ],
+      "order": null,
+      "bbox": [
+        0.9532488547624639,
+        33.89500854492187,
+        936.7548638609446,
+        217.9190625
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r021",
+      "label": "headline",
+      "score": 0.623288631439209,
+      "bbox_pixels": [
+        270.79931640625,
+        1480.0439453125,
+        402.7353210449219,
+        1507.2835693359375
+      ],
+      "order": null,
+      "bbox": [
+        129.9726805278095,
+        710.42109375,
+        193.2966076653963,
+        723.49611328125
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r022",
+      "label": "headline",
+      "score": 0.556271493434906,
+      "bbox_pixels": [
+        1064.761474609375,
+        1793.796630859375,
+        1893.2618408203125,
+        2002.71533203125
+      ],
+      "order": null,
+      "bbox": [
+        511.0422907054636,
+        861.0223828125,
+        908.6888388716467,
+        961.303359375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r023",
+      "label": "masthead",
+      "score": 0.49119243025779724,
+      "bbox_pixels": [
+        1069.413330078125,
+        2672.88671875,
+        1636.8111572265625,
+        3001.987548828125
+      ],
+      "order": null,
+      "bbox": [
+        513.274992518471,
+        1282.985625,
+        785.6029197038702,
+        1440.9540234375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r024",
+      "label": "headline",
+      "score": 0.45400214195251465,
+      "bbox_pixels": [
+        21.21040153503418,
+        1945.8956298828125,
+        224.1634979248047,
+        1971.586669921875
+      ],
+      "order": null,
+      "bbox": [
+        10.18013183771808,
+        934.02990234375,
+        107.58938053620763,
+        946.3616015625
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r025",
+      "label": "cartoon_or_advertisement",
+      "score": 0.36742931604385376,
+      "bbox_pixels": [
+        1631.9212646484375,
+        2293.25244140625,
+        1896.2314453125,
+        2556.953125
+      ],
+      "order": null,
+      "bbox": [
+        783.25596973994,
+        1100.761171875,
+        910.1141284960046,
+        1227.3375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r026",
+      "label": "photograph",
+      "score": 0.30363786220550537,
+      "bbox_pixels": [
+        1664.4735107421875,
+        1050.77197265625,
+        1766.91064453125,
+        1176.1446533203125
+      ],
+      "order": null,
+      "bbox": [
+        798.8797266170012,
+        504.370546875,
+        848.0453930626902,
+        564.54943359375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r027",
+      "label": "image_caption",
+      "score": 0.2670569121837616,
+      "bbox_pixels": [
+        9.425230979919434,
+        1089.927734375,
+        964.3118896484375,
+        1173.3984375
+      ],
+      "order": null,
+      "bbox": [
+        4.5237283140557,
+        523.1653125,
+        462.8305670255819,
+        563.23125
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r028",
+      "label": "headline",
+      "score": 0.23799213767051697,
+      "bbox_pixels": [
+        1084.4832763671875,
+        2056.6240234375,
+        1318.419189453125,
+        2134.85546875
+      ],
+      "order": null,
+      "bbox": [
+        520.5079550701976,
+        987.17953125,
+        632.7876982357465,
+        1024.730625
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r029",
+      "label": "author",
+      "score": 0.2353896200656891,
+      "bbox_pixels": [
+        1014.5252685546875,
+        886.2926635742188,
+        1141.562255859375,
+        912.1443481445312
+      ],
+      "order": null,
+      "bbox": [
+        486.930950813158,
+        425.420478515625,
+        547.9035484743627,
+        437.829287109375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r030",
+      "label": "article",
+      "score": 0.0947374701499939,
+      "bbox_pixels": [
+        1059.4630126953125,
+        2145.677001953125,
+        1321.20703125,
+        2623.888671875
+      ],
+      "order": null,
+      "bbox": [
+        508.4992440435138,
+        1029.9249609375,
+        634.1257491438356,
+        1259.4665625
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r031",
+      "label": "author",
+      "score": 0.08982881903648376,
+      "bbox_pixels": [
+        9.650877952575684,
+        2628.504638671875,
+        113.13810729980469,
+        2653.1767578125
+      ],
+      "order": null,
+      "bbox": [
+        4.632029702250937,
+        1261.6822265625,
+        54.30169939402092,
+        1273.52484375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r032",
+      "label": "article",
+      "score": 0.06799733638763428,
+      "bbox_pixels": [
+        1317.948486328125,
+        1987.8538818359375,
+        1606.717529296875,
+        2598.017333984375
+      ],
+      "order": null,
+      "bbox": [
+        632.5617798408961,
+        954.16986328125,
+        771.1591997538527,
+        1247.0483203125
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r033",
+      "label": "article",
+      "score": 0.0656471848487854,
+      "bbox_pixels": [
+        1425.503173828125,
+        1119.9063720703125,
+        1613.630126953125,
+        1252.6192626953125
+      ],
+      "order": null,
+      "bbox": [
+        684.1836643538337,
+        537.55505859375,
+        774.4769660566495,
+        601.25724609375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r034",
+      "label": "headline",
+      "score": 0.05057096481323242,
+      "bbox_pixels": [
+        1674.8707275390625,
+        901.0855102539062,
+        1904.7706298828125,
+        1034.934326171875
+      ],
+      "order": null,
+      "bbox": [
+        803.8699686717165,
+        432.521044921875,
+        914.2125904967735,
+        496.7684765625
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r035",
+      "label": "cartoon_or_advertisement",
+      "score": 0.03931659460067749,
+      "bbox_pixels": [
+        1729.331298828125,
+        2871.86376953125,
+        1876.2156982421875,
+        2977.393798828125
+      ],
+      "order": null,
+      "bbox": [
+        830.0088324157313,
+        1378.494609375,
+        900.5073823120798,
+        1429.1490234375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r036",
+      "label": "headline",
+      "score": 0.03239437937736511,
+      "bbox_pixels": [
+        92.68357849121094,
+        1979.4967041015625,
+        151.35018920898438,
+        1994.9444580078125
+      ],
+      "order": null,
+      "bbox": [
+        44.48435578522859,
+        950.15841796875,
+        72.64194773805136,
+        957.57333984375
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r037",
+      "label": "article",
+      "score": 0.022101223468780518,
+      "bbox_pixels": [
+        1318.096923828125,
+        884.6466674804688,
+        1616.2996826171875,
+        1113.6373291015625
+      ],
+      "order": null,
+      "bbox": [
+        632.6330238160357,
+        424.630400390625,
+        775.7582444220494,
+        534.54591796875
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    },
+    {
+      "region_id": "r038",
+      "label": "article",
+      "score": 0.017882943153381348,
+      "bbox_pixels": [
+        1780.3143310546875,
+        1048.60791015625,
+        1917.6268310546875,
+        1175.5074462890625
+      ],
+      "order": null,
+      "bbox": [
+        854.4786185579576,
+        503.331796875,
+        920.3830452449185,
+        564.24357421875
+      ],
+      "transcription": null,
+      "article_id": null,
+      "quality_flags": []
+    }
+  ],
+  "versions": {
+    "torch": "2.14.0",
+    "transformers": "5.16.1",
+    "onnxruntime": "1.29.0",
+    "ultralytics": "8.4.142",
+    "pillow": "10.4.0"
+  }
+}

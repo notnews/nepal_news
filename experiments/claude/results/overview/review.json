@@ -1,0 +1,55 @@
+{
+  "custom_id": "KPUR_2013_02_20_p1_overview",
+  "model": "claude-sonnet-5",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 4598,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14035,
+    "output_tokens_details": {
+      "thinking_tokens": 6361
+    },
+    "service_tier": "batch",
+    "inference_geo": "global"
+  },
+  "cost_usd": 0.074773,
+  "batch_elapsed_seconds": 572.11,
+  "schema_errors": [
+    "items[0]: missing or invalid continuation_marker",
+    "items[1]: missing or invalid continuation_marker",
+    "items[1].regions[0]: invalid bbox",
+    "items[1].regions[1]: invalid bbox",
+    "items[2]: missing or invalid continuation_marker",
+    "items[2].regions[0]: invalid bbox",
+    "items[3]: missing or invalid continuation_marker",
+    "items[3].regions[0]: invalid bbox",
+    "items[4].regions[4]: invalid bbox",
+    "items[5].regions[2]: invalid bbox",
+    "items[5].regions[3]: invalid bbox",
+    "items[6].regions[0]: invalid bbox",
+    "items[6].regions[1]: invalid bbox",
+    "items[6].regions[2]: invalid bbox",
+    "items[8].regions[0]: invalid bbox",
+    "items[8].regions[1]: invalid bbox",
+    "items[9].regions[0]: invalid bbox",
+    "items[9].regions[1]: invalid bbox",
+    "items[9].regions[2]: invalid bbox",
+    "items[10].regions[0]: invalid bbox",
+    "items[10].regions[1]: invalid bbox",
+    "items[11].regions[0]: invalid bbox",
+    "items[11].regions[1]: invalid bbox",
+    "items[12].regions[0]: invalid bbox",
+    "items[12].regions[1]: invalid bbox"
+  ],
+  "invalid_boxes": 21,
+  "region_count": 32,
+  "missing_continuation_fields": 4,
+  "item_count": 13,
+  "json_parsed": true,
+  "quality_gate_passed": false
+}

@@ -1,0 +1,8 @@
+{
+  "input_tokens": [
+    13595
+  ],
+  "max_output_tokens_per_request": 32768,
+  "batch_cost_at_output_cap_usd": 0.177435,
+  "approved_subset_budget_usd": 0.25
+}

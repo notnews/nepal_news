@@ -1,0 +1,5770 @@
+{
+  "reference_status": "provisional assistant visual annotations, not human gold",
+  "matching": "class-agnostic maximum-cardinality matching at IoU >= 0.5",
+  "warning": "Unmatched regions can be boundary/granularity errors, not omissions.",
+  "totals": {
+    "american_150_development": {
+      "runs": 6.0,
+      "failed_runs": 0.0,
+      "predictions": 227.0,
+      "reference_regions": 187.0,
+      "matches_iou50": 149.0,
+      "unmatched_editorial_regions": 32.0,
+      "editorial_reference_area": 2956441.1310794502,
+      "editorial_area_covered_by_text": 2751571.1299629556,
+      "ad_reference_area": 2891385.6267072503,
+      "ad_area_labeled_as_text": 568095.4776546011,
+      "editorial_regions_below_10pct_coverage": 6.0,
+      "cross_article_merge_candidates": 1.0,
+      "editorial_text_area_coverage": 0.930703845592321,
+      "ad_text_area_fraction": 0.19647862685876186,
+      "precision_iou50": 0.6563876651982379,
+      "recall_iou50": 0.7967914438502673
+    },
+    "american_300_development": {
+      "runs": 6.0,
+      "failed_runs": 0.0,
+      "predictions": 219.0,
+      "reference_regions": 187.0,
+      "matches_iou50": 150.0,
+      "unmatched_editorial_regions": 32.0,
+      "editorial_reference_area": 2956441.1310794502,
+      "editorial_area_covered_by_text": 2748995.0851676837,
+      "ad_reference_area": 2891385.6267072503,
+      "ad_area_labeled_as_text": 552853.4517536312,
+      "editorial_regions_below_10pct_coverage": 7.0,
+      "cross_article_merge_candidates": 1.0,
+      "editorial_text_area_coverage": 0.9298325125668834,
+      "ad_text_area_fraction": 0.19120709691817495,
+      "precision_iou50": 0.684931506849315,
+      "recall_iou50": 0.8021390374331551
+    },
+    "american_150_evaluation": {
+      "runs": 3.0,
+      "failed_runs": 0.0,
+      "predictions": 105.0,
+      "reference_regions": 97.0,
+      "matches_iou50": 80.0,
+      "unmatched_editorial_regions": 16.0,
+      "editorial_reference_area": 2348037.633032386,
+      "editorial_area_covered_by_text": 2322415.7715422525,
+      "ad_reference_area": 712279.3580474262,
+      "ad_area_labeled_as_text": 18710.77506246717,
+      "editorial_regions_below_10pct_coverage": 0.0,
+      "cross_article_merge_candidates": 0.0,
+      "editorial_text_area_coverage": 0.9890879681272211,
+      "ad_text_area_fraction": 0.02626887168787129,
+      "precision_iou50": 0.7619047619047619,
+      "recall_iou50": 0.8247422680412371
+    },
+    "american_300_evaluation": {
+      "runs": 3.0,
+      "failed_runs": 0.0,
+      "predictions": 101.0,
+      "reference_regions": 97.0,
+      "matches_iou50": 81.0,
+      "unmatched_editorial_regions": 15.0,
+      "editorial_reference_area": 2348037.633032386,
+      "editorial_area_covered_by_text": 2316647.3870210205,
+      "ad_reference_area": 712279.3580474262,
+      "ad_area_labeled_as_text": 2231.368958028085,
+      "editorial_regions_below_10pct_coverage": 0.0,
+      "cross_article_merge_candidates": 0.0,
+      "editorial_text_area_coverage": 0.9866312849633391,
+      "ad_text_area_fraction": 0.003132716023309933,
+      "precision_iou50": 0.801980198019802,
+      "recall_iou50": 0.8350515463917526
+    },
+    "paddle_150_development": {
+      "runs": 6.0,
+      "failed_runs": 0.0,
+      "predictions": 422.0,
+      "reference_regions": 187.0,
+      "matches_iou50": 105.0,
+      "unmatched_editorial_regions": 64.0,
+      "editorial_reference_area": 2956441.1310794502,
+      "editorial_area_covered_by_text": 2805445.0251249145,
+      "ad_reference_area": 2891385.6267072503,
+      "ad_area_labeled_as_text": 585977.0931612372,
+      "editorial_regions_below_10pct_coverage": 4.0,
+      "cross_article_merge_candidates": 0.0,
+      "editorial_text_area_coverage": 0.9489263951961714,
+      "ad_text_area_fraction": 0.202663071901812,
+      "precision_iou50": 0.24881516587677724,
+      "recall_iou50": 0.5614973262032086
+    },
+    "paddle_300_development": {
+      "runs": 6.0,
+      "failed_runs": 0.0,
+      "predictions": 415.0,
+      "reference_regions": 187.0,
+      "matches_iou50": 104.0,
+      "unmatched_editorial_regions": 65.0,
+      "editorial_reference_area": 2956441.1310794502,
+      "editorial_area_covered_by_text": 2796881.8136410657,
+      "ad_reference_area": 2891385.6267072503,
+      "ad_area_labeled_as_text": 514462.5011150718,
+      "editorial_regions_below_10pct_coverage": 8.0,
+      "cross_article_merge_candidates": 0.0,
+      "editorial_text_area_coverage": 0.9460299358708603,
+      "ad_text_area_fraction": 0.17792939702095317,
+      "precision_iou50": 0.25060240963855424,
+      "recall_iou50": 0.5561497326203209
+    },
+    "paddle_150_evaluation": {
+      "runs": 3.0,
+      "failed_runs": 0.0,
+      "predictions": 230.0,
+      "reference_regions": 97.0,
+      "matches_iou50": 66.0,
+      "unmatched_editorial_regions": 24.0,
+      "editorial_reference_area": 2348037.633032386,
+      "editorial_area_covered_by_text": 2258915.6001408556,
+      "ad_reference_area": 712279.3580474262,
+      "ad_area_labeled_as_text": 355740.8287145366,
+      "editorial_regions_below_10pct_coverage": 6.0,
+      "cross_article_merge_candidates": 0.0,
+      "editorial_text_area_coverage": 0.9620440355649524,
+      "ad_text_area_fraction": 0.49944003668691195,
+      "precision_iou50": 0.28695652173913044,
+      "recall_iou50": 0.6804123711340206
+    },
+    "paddle_300_evaluation": {
+      "runs": 3.0,
+      "failed_runs": 0.0,
+      "predictions": 219.0,
+      "reference_regions": 97.0,
+      "matches_iou50": 64.0,
+      "unmatched_editorial_regions": 26.0,
+      "editorial_reference_area": 2348037.633032386,
+      "editorial_area_covered_by_text": 2210453.9683293565,
+      "ad_reference_area": 712279.3580474262,
+      "ad_area_labeled_as_text": 352541.02267432446,
+      "editorial_regions_below_10pct_coverage": 8.0,
+      "cross_article_merge_candidates": 0.0,
+      "editorial_text_area_coverage": 0.9414048298172519,
+      "ad_text_area_fraction": 0.49494768968280417,
+      "precision_iou50": 0.2922374429223744,
+      "recall_iou50": 0.6597938144329897
+    }
+  },
+  "pages": [
+    {
+      "page_id": "KPUR_2013_02_20_p1",
+      "model": "american",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 466926.94794335245,
+      "editorial_area_covered_by_text": 455020.1558942096,
+      "ad_reference_area": 400524.60249418736,
+      "ad_area_labeled_as_text": 1571.8069676147843,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 34,
+      "reference_regions": 31,
+      "matches_iou50": 26,
+      "precision_iou50": 0.7647058823529411,
+      "recall_iou50": 0.8387096774193549,
+      "matched_ious": [
+        0.9824715467234191,
+        0.9686917333569566,
+        0.9417783009586431,
+        0.9686217890053854,
+        0.9795095757951127,
+        0.9430803448465662,
+        0.9455554946828012,
+        0.9660022105009565,
+        0.9811074406914251,
+        0.8201459662474888,
+        0.8642582389202481,
+        0.862657493918044,
+        0.8200676795510417,
+        0.7544155753860268,
+        0.9349899551747126,
+        0.9283373613707255,
+        0.8594791481193297,
+        0.9042208196623337,
+        0.881142934116266,
+        0.8850351246420041,
+        0.9083437167080808,
+        0.5812813894807265,
+        0.9451595213258516,
+        0.5446506001203775,
+        0.7930393783407638,
+        0.5575126627697358
+      ],
+      "unmatched_reference_indices": [
+        12,
+        19,
+        20,
+        21,
+        28
+      ],
+      "unmatched_editorial_regions": 5,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        7,
+        25,
+        26
+      ],
+      "matched_labels": [
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "graphic"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ],
+        [
+          "image_caption",
+          "caption"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "byline"
+        ],
+        [
+          "headline",
+          "ad"
+        ],
+        [
+          "author",
+          "byline"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p1",
+      "model": "american",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 466926.94794335245,
+      "editorial_area_covered_by_text": 455844.36121425894,
+      "ad_reference_area": 400524.60249418736,
+      "ad_area_labeled_as_text": 1500.9007593466947,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 33,
+      "reference_regions": 31,
+      "matches_iou50": 26,
+      "precision_iou50": 0.7878787878787878,
+      "recall_iou50": 0.8387096774193549,
+      "matched_ious": [
+        0.9788709418406532,
+        0.9715766929812633,
+        0.9349532383365784,
+        0.9693488245463768,
+        0.9476449927661348,
+        0.936582577802246,
+        0.9804752369201494,
+        0.9678935253542953,
+        0.8177993474016036,
+        0.9844725915994117,
+        0.8630436679150544,
+        0.8489046006244186,
+        0.8311094147811621,
+        0.9300239887582633,
+        0.8898688449395302,
+        0.9073110059751451,
+        0.8418163706219624,
+        0.9061070700605476,
+        0.7704474701584889,
+        0.9402284097989481,
+        0.8936098629421255,
+        0.9484638527123708,
+        0.5869571560258195,
+        0.5465597648702469,
+        0.7643053898449245,
+        0.5526513343368861
+      ],
+      "unmatched_reference_indices": [
+        12,
+        19,
+        20,
+        21,
+        28
+      ],
+      "unmatched_editorial_regions": 5,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        7,
+        26
+      ],
+      "matched_labels": [
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "graphic"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "image_caption",
+          "caption"
+        ],
+        [
+          "headline",
+          "byline"
+        ],
+        [
+          "headline",
+          "ad"
+        ],
+        [
+          "author",
+          "byline"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p3",
+      "model": "american",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 663305.3983005706,
+      "editorial_area_covered_by_text": 613786.3590630419,
+      "ad_reference_area": 195377.7339251744,
+      "ad_area_labeled_as_text": 0.0,
+      "editorial_regions_below_10pct_coverage": 1,
+      "predictions": 45,
+      "reference_regions": 41,
+      "matches_iou50": 35,
+      "precision_iou50": 0.7777777777777778,
+      "recall_iou50": 0.8536585365853658,
+      "matched_ious": [
+        0.9862588630557246,
+        0.9887768659824128,
+        0.9642970831857062,
+        0.9544665751956636,
+        0.9460550022280171,
+        0.9686218910621919,
+        0.9103496374534674,
+        0.9327272577482414,
+        0.9324666609843735,
+        0.9637778551783686,
+        0.9289534855919193,
+        0.9280004513649605,
+        0.8549083835889376,
+        0.872108391069801,
+        0.9409300189674119,
+        0.937043885677472,
+        0.8788492156596813,
+        0.9138253268107848,
+        0.9632466992341147,
+        0.928723935916522,
+        0.9307314678171947,
+        0.9253425575220324,
+        0.9538275289371931,
+        0.9914006300186784,
+        0.7097620218565486,
+        0.9117422472061082,
+        0.8245430406188825,
+        0.8834513372391151,
+        0.9668460379307834,
+        0.7351160360782909,
+        0.9174877362729147,
+        0.7698798177686762,
+        0.615807036243805,
+        0.916490780950253,
+        0.5625268324159222
+      ],
+      "unmatched_reference_indices": [
+        2,
+        4,
+        11,
+        18,
+        25,
+        32
+      ],
+      "unmatched_editorial_regions": 6,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        2,
+        39
+      ],
+      "matched_labels": [
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "image"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "pull_quote"
+        ],
+        [
+          "newspaper_header",
+          "headline"
+        ],
+        [
+          "image_caption",
+          "caption"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p3",
+      "model": "american",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 663305.3983005706,
+      "editorial_area_covered_by_text": 613693.8503489465,
+      "ad_reference_area": 195377.7339251744,
+      "ad_area_labeled_as_text": 0.0,
+      "editorial_regions_below_10pct_coverage": 1,
+      "predictions": 44,
+      "reference_regions": 41,
+      "matches_iou50": 37,
+      "precision_iou50": 0.8409090909090909,
+      "recall_iou50": 0.9024390243902439,
+      "matched_ious": [
+        0.9842871299058916,
+        0.9909694625138983,
+        0.9653692266379866,
+        0.950458669050857,
+        0.936774304290833,
+        0.9228314728948526,
+        0.9471330366791014,
+        0.9725116513381379,
+        0.9087423715626826,
+        0.9115506927049281,
+        0.9278120149240251,
+        0.9573562310907068,
+        0.9591919756329164,
+        0.9351910857851121,
+        0.9204112451712555,
+        0.9437403902371712,
+        0.9676829451561091,
+        0.8629983834486141,
+        0.9314242452365776,
+        0.9643255395127946,
+        0.9345038443752794,
+        0.8725567517669965,
+        0.9512301600476449,
+        0.9193019045557472,
+        0.932025636028751,
+        0.8528676117326867,
+        0.8232202394294547,
+        0.8916448564508866,
+        0.7107553376498819,
+        0.7611779918374142,
+        0.7465783938046634,
+        0.9173424413271212,
+        0.8344996492587635,
+        0.9061327650281524,
+        0.5400860583266,
+        0.5205530024295905,
+        0.5062149361484608
+      ],
+      "unmatched_reference_indices": [
+        2,
+        11,
+        18,
+        25
+      ],
+      "unmatched_editorial_regions": 4,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        2,
+        39,
+        40
+      ],
+      "matched_labels": [
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "pull_quote"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "newspaper_header",
+          "headline"
+        ],
+        [
+          "image_caption",
+          "caption"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ],
+        [
+          "author",
+          "byline"
+        ],
+        [
+          "headline",
+          "byline"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p7",
+      "model": "american",
+      "dpi": 150,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 1026863.0002282816,
+      "editorial_area_covered_by_text": 1019339.5334430732,
+      "ad_reference_area": 0,
+      "ad_area_labeled_as_text": 0,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 35,
+      "reference_regions": 35,
+      "matches_iou50": 28,
+      "precision_iou50": 0.8,
+      "recall_iou50": 0.8,
+      "matched_ious": [
+        0.980378444248146,
+        0.9666713947341363,
+        0.9563634463470798,
+        0.9487229105926087,
+        0.9586086571994169,
+        0.9624391049816698,
+        0.9562386329027832,
+        0.9698898839334072,
+        0.9615784533565396,
+        0.9668481956565943,
+        0.9727259156942424,
+        0.9581446840430681,
+        0.9793467123458423,
+        0.9519706805382303,
+        0.6518812715730258,
+        0.8636653283682453,
+        0.8203853875709044,
+        0.9649240988594626,
+        0.8833129899307366,
+        0.8329863596911828,
+        0.9364558450797233,
+        0.8529079321846166,
+        0.9314430106076177,
+        0.8958214512521452,
+        0.9483658735378361,
+        0.6746056560166009,
+        0.5094139955497324,
+        0.5383899503887885
+      ],
+      "unmatched_reference_indices": [
+        3,
+        15,
+        16,
+        17,
+        20,
+        27,
+        34
+      ],
+      "unmatched_editorial_regions": 7,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        10
+      ],
+      "matched_labels": [
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "graphic"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "author",
+          "byline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p7",
+      "model": "american",
+      "dpi": 300,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 1026863.0002282816,
+      "editorial_area_covered_by_text": 1017357.9882070168,
+      "ad_reference_area": 0,
+      "ad_area_labeled_as_text": 0,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 35,
+      "reference_regions": 35,
+      "matches_iou50": 29,
+      "precision_iou50": 0.8285714285714286,
+      "recall_iou50": 0.8285714285714286,
+      "matched_ious": [
+        0.9470062107212172,
+        0.95774952239174,
+        0.9646452435392253,
+        0.9657132558271495,
+        0.982084828456123,
+        0.9612332624198892,
+        0.9557424699869292,
+        0.9590558974008949,
+        0.9684571635973892,
+        0.9707196398640002,
+        0.9609060373940636,
+        0.970685354749317,
+        0.9811795617697237,
+        0.9401463739436703,
+        0.8465582370003676,
+        0.8938011203485419,
+        0.9697885583955502,
+        0.6488735000584376,
+        0.8123364153947562,
+        0.8478916775980319,
+        0.8305339389635208,
+        0.9336595697893028,
+        0.9313383387992411,
+        0.9475233974892643,
+        0.888895315617138,
+        0.9060091890878985,
+        0.5483730105515343,
+        0.6623440224969402,
+        0.9320782177874949
+      ],
+      "unmatched_reference_indices": [
+        3,
+        15,
+        16,
+        17,
+        20,
+        27
+      ],
+      "unmatched_editorial_regions": 6,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        10
+      ],
+      "matched_labels": [
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "graphic"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ],
+        [
+          "author",
+          "byline"
+        ],
+        [
+          "headline",
+          "pull_quote"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p1",
+      "model": "american",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 475166.7419150285,
+      "editorial_area_covered_by_text": 363028.20521896234,
+      "ad_reference_area": 331403.7597801734,
+      "ad_area_labeled_as_text": 113386.08746619608,
+      "editorial_regions_below_10pct_coverage": 4,
+      "predictions": 39,
+      "reference_regions": 37,
+      "matches_iou50": 27,
+      "precision_iou50": 0.6923076923076923,
+      "recall_iou50": 0.7297297297297297,
+      "matched_ious": [
+        0.920963857089406,
+        0.9599640333920239,
+        0.9416409189364253,
+        0.9364097042467039,
+        0.9647042890738275,
+        0.9421483700661971,
+        0.9686956918949675,
+        0.9487918113754213,
+        0.9424530833014806,
+        0.966102909039438,
+        0.9214776811949082,
+        0.9568099962677953,
+        0.8465401035523509,
+        0.9170055271041982,
+        0.9411393250770157,
+        0.7934414842770513,
+        0.8610379615012509,
+        0.7020958484600125,
+        0.8911054513461808,
+        0.9044043054202497,
+        0.5742839415752167,
+        0.8700055508945841,
+        0.59499339568916,
+        0.8890081937232003,
+        0.8564400955852924,
+        0.9088442420662934,
+        0.910290391936949
+      ],
+      "unmatched_reference_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        11,
+        19,
+        29,
+        34,
+        35
+      ],
+      "unmatched_editorial_regions": 7,
+      "cross_article_merge_candidates": [
+        "r014"
+      ],
+      "fragmentation_candidates": [
+        35
+      ],
+      "matched_labels": [
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "graphic"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "graphic"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ],
+        [
+          "headline",
+          "ad"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "image_caption",
+          "caption"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p1",
+      "model": "american",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 475166.7419150285,
+      "editorial_area_covered_by_text": 352491.9613664347,
+      "ad_reference_area": 331403.7597801734,
+      "ad_area_labeled_as_text": 110182.37988476473,
+      "editorial_regions_below_10pct_coverage": 6,
+      "predictions": 39,
+      "reference_regions": 37,
+      "matches_iou50": 26,
+      "precision_iou50": 0.6666666666666666,
+      "recall_iou50": 0.7027027027027027,
+      "matched_ious": [
+        0.921899212239191,
+        0.9651191605794716,
+        0.9424484943369873,
+        0.924271782039901,
+        0.9400383149634522,
+        0.9504292575591916,
+        0.9773900554843353,
+        0.9711548936044483,
+        0.9498660495575397,
+        0.9495251801427641,
+        0.9158308596621804,
+        0.955448680314677,
+        0.8451297693237044,
+        0.9148372686924874,
+        0.8764774986569528,
+        0.7985349140525178,
+        0.6781332354928156,
+        0.9374858750823739,
+        0.9775527821453567,
+        0.8899211950828119,
+        0.522940692648709,
+        0.8699869742408747,
+        0.565804065505745,
+        0.8530986007592863,
+        0.9149466646881139,
+        0.9164823144808203
+      ],
+      "unmatched_reference_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11,
+        19,
+        29,
+        34,
+        35
+      ],
+      "unmatched_editorial_regions": 8,
+      "cross_article_merge_candidates": [
+        "r013"
+      ],
+      "fragmentation_candidates": [
+        23,
+        35
+      ],
+      "matched_labels": [
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "graphic"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "graphic"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "image_caption",
+          "caption"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "headline",
+          "ad"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p3",
+      "model": "american",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 155594.04885225112,
+      "editorial_area_covered_by_text": 146781.12468145427,
+      "ad_reference_area": 1098190.576402452,
+      "ad_area_labeled_as_text": 35217.35060900549,
+      "editorial_regions_below_10pct_coverage": 1,
+      "predictions": 32,
+      "reference_regions": 15,
+      "matches_iou50": 12,
+      "precision_iou50": 0.375,
+      "recall_iou50": 0.8,
+      "matched_ious": [
+        0.9527930996885428,
+        0.9726243735881203,
+        0.9403223713785154,
+        0.9427208562464523,
+        0.9000446210499431,
+        0.8570238534580699,
+        0.991453971505651,
+        0.9278049985490725,
+        0.8097317690617436,
+        0.9004939085460799,
+        0.7360163784169101,
+        0.8410411523212543
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        14
+      ],
+      "unmatched_editorial_regions": 1,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        11,
+        14
+      ],
+      "matched_labels": [
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "pull_quote"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "newspaper_header",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p3",
+      "model": "american",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 155594.04885225112,
+      "editorial_area_covered_by_text": 153350.0613578059,
+      "ad_reference_area": 1098190.576402452,
+      "ad_area_labeled_as_text": 86266.1731380079,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 30,
+      "reference_regions": 15,
+      "matches_iou50": 12,
+      "precision_iou50": 0.4,
+      "recall_iou50": 0.8,
+      "matched_ious": [
+        0.9556809438428353,
+        0.9678141029129627,
+        0.9388312914898577,
+        0.9412902455242055,
+        0.8716442414604424,
+        0.9015203686021624,
+        0.9887602315598022,
+        0.9376864925705551,
+        0.8219195227232218,
+        0.8124398008256537,
+        0.9178698954648633,
+        0.5078871050608386
+      ],
+      "unmatched_reference_indices": [
+        2,
+        8,
+        14
+      ],
+      "unmatched_editorial_regions": 2,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        8,
+        11,
+        14
+      ],
+      "matched_labels": [
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "newspaper_header",
+          "ad"
+        ],
+        [
+          "headline",
+          "pull_quote"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p7",
+      "model": "american",
+      "dpi": 150,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 990752.9064975694,
+      "editorial_area_covered_by_text": 982090.239487968,
+      "ad_reference_area": 0,
+      "ad_area_labeled_as_text": 0,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 36,
+      "reference_regions": 36,
+      "matches_iou50": 30,
+      "precision_iou50": 0.8333333333333334,
+      "recall_iou50": 0.8333333333333334,
+      "matched_ious": [
+        0.9582684636378165,
+        0.9730535790861912,
+        0.9575142391407432,
+        0.9583003428909911,
+        0.9507402251768402,
+        0.9678401200034448,
+        0.9682082835128729,
+        0.9722451375223512,
+        0.9483840068882865,
+        0.9824684421321973,
+        0.9796088358541043,
+        0.9647792147179486,
+        0.9713374792572671,
+        0.9760652589798767,
+        0.9472039138277919,
+        0.9540703469529364,
+        0.7843840374444114,
+        0.9297683208332791,
+        0.9320671711282538,
+        0.92415218202808,
+        0.9091886173203669,
+        0.971037432841326,
+        0.9101064740038816,
+        0.823226215373277,
+        0.9066490198201792,
+        0.6207379146554252,
+        0.8774281494473191,
+        0.5212290019679862,
+        0.8863823684936744,
+        0.7030596535256606
+      ],
+      "unmatched_reference_indices": [
+        0,
+        15,
+        16,
+        17,
+        20,
+        27
+      ],
+      "unmatched_editorial_regions": 5,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        14
+      ],
+      "matched_labels": [
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "graphic"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "author",
+          "byline"
+        ],
+        [
+          "image_caption",
+          "caption"
+        ],
+        [
+          "author",
+          "byline"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "headline",
+          "furniture"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p7",
+      "model": "american",
+      "dpi": 300,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 990752.9064975694,
+      "editorial_area_covered_by_text": 978070.1042940614,
+      "ad_reference_area": 0,
+      "ad_area_labeled_as_text": 0,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 34,
+      "reference_regions": 36,
+      "matches_iou50": 30,
+      "precision_iou50": 0.8823529411764706,
+      "recall_iou50": 0.8333333333333334,
+      "matched_ious": [
+        0.9655663301004199,
+        0.9635763136877478,
+        0.9759288575735483,
+        0.9575414659029767,
+        0.9487159932481068,
+        0.9816160171741658,
+        0.9746615767478842,
+        0.9855827677776835,
+        0.9503935964495045,
+        0.9519398097938061,
+        0.9713230041726459,
+        0.9786712547817529,
+        0.9837945311065981,
+        0.9766550062775782,
+        0.9488265147443569,
+        0.9544810137481482,
+        0.7876702014663151,
+        0.9489507216790715,
+        0.9459761943457556,
+        0.9379537560660218,
+        0.9075607624340105,
+        0.898439757276422,
+        0.9375919443310263,
+        0.9040051426939233,
+        0.8149981663752957,
+        0.8889266110698568,
+        0.8732242293752244,
+        0.5139338817807716,
+        0.6192771380065463,
+        0.687904983724422
+      ],
+      "unmatched_reference_indices": [
+        0,
+        15,
+        16,
+        17,
+        20,
+        27
+      ],
+      "unmatched_editorial_regions": 5,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [],
+      "matched_labels": [
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "graphic"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "image_caption",
+          "caption"
+        ],
+        [
+          "photograph",
+          "image"
+        ],
+        [
+          "author",
+          "byline"
+        ],
+        [
+          "author",
+          "byline"
+        ],
+        [
+          "headline",
+          "furniture"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p1",
+      "model": "american",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 667843.940155003,
+      "editorial_area_covered_by_text": 655064.5881874231,
+      "ad_reference_area": 194267.7077246964,
+      "ad_area_labeled_as_text": 0.0,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 42,
+      "reference_regions": 35,
+      "matches_iou50": 29,
+      "precision_iou50": 0.6904761904761905,
+      "recall_iou50": 0.8285714285714286,
+      "matched_ious": [
+        0.9638392491225326,
+        0.9681860049890147,
+        0.959784027880075,
+        0.9663484432018156,
+        0.9652709652202707,
+        0.954567806561698,
+        0.9498025565802057,
+        0.9404123258068077,
+        0.962356071433242,
+        0.9510404594916884,
+        0.9449626696218497,
+        0.9442916892838016,
+        0.9415420592977021,
+        0.8863374979798071,
+        0.955471317729196,
+        0.979833982240802,
+        0.9698371916642305,
+        0.9099847826598578,
+        0.8916601004079459,
+        0.9433530259678611,
+        0.9492508311155204,
+        0.872158763268755,
+        0.881074918194134,
+        0.8524446421655396,
+        0.8886613351850137,
+        0.5950505859078489,
+        0.5204573698688222,
+        0.7104329866757008,
+        0.780072963998882
+      ],
+      "unmatched_reference_indices": [
+        5,
+        12,
+        18,
+        21,
+        23,
+        30
+      ],
+      "unmatched_editorial_regions": 6,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        27
+      ],
+      "matched_labels": [
+        [
+          "cartoon_or_advertisement",
+          "graphic"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "pull_quote"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "photograph",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ],
+        [
+          "article",
+          "pull_quote"
+        ],
+        [
+          "author",
+          "byline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "furniture"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p1",
+      "model": "american",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 667843.940155003,
+      "editorial_area_covered_by_text": 655137.7145222574,
+      "ad_reference_area": 194267.7077246964,
+      "ad_area_labeled_as_text": 0.0,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 40,
+      "reference_regions": 35,
+      "matches_iou50": 29,
+      "precision_iou50": 0.725,
+      "recall_iou50": 0.8285714285714286,
+      "matched_ious": [
+        0.958530832406011,
+        0.9609732231535972,
+        0.9619472304743684,
+        0.9633427588685142,
+        0.9519507043749313,
+        0.9672038205089912,
+        0.9515937879967815,
+        0.9679473593808914,
+        0.9421456154537285,
+        0.9509951694354115,
+        0.9455813588177748,
+        0.9433918081753674,
+        0.9397473496778612,
+        0.8877536653497633,
+        0.9772228575295552,
+        0.9558046767879074,
+        0.9591946846612507,
+        0.8995057545279558,
+        0.9050828881656544,
+        0.9548556748046475,
+        0.8614843896136328,
+        0.8837143184364276,
+        0.9422758024915173,
+        0.8473602379275964,
+        0.8069863857463543,
+        0.5252186759187795,
+        0.7283588148670926,
+        0.8750337574272117,
+        0.5976756482271054
+      ],
+      "unmatched_reference_indices": [
+        5,
+        12,
+        18,
+        21,
+        23,
+        30
+      ],
+      "unmatched_editorial_regions": 6,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0
+      ],
+      "matched_labels": [
+        [
+          "cartoon_or_advertisement",
+          "graphic"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "pull_quote"
+        ],
+        [
+          "photograph",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ],
+        [
+          "author",
+          "byline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "furniture"
+        ],
+        [
+          "article",
+          "pull_quote"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p3",
+      "model": "american",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 527604.0539132446,
+      "editorial_area_covered_by_text": 517890.6969178643,
+      "ad_reference_area": 671621.2463805669,
+      "ad_area_labeled_as_text": 417920.23261178477,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 35,
+      "reference_regions": 28,
+      "matches_iou50": 20,
+      "precision_iou50": 0.5714285714285714,
+      "recall_iou50": 0.7142857142857143,
+      "matched_ious": [
+        0.926273793797124,
+        0.95393122849871,
+        0.9750299366813436,
+        0.9689980433477526,
+        0.9821866696566013,
+        0.9942671266178578,
+        0.9456830248136888,
+        0.9636512134142442,
+        0.9426241436917845,
+        0.9625144376825769,
+        0.9584822219485722,
+        0.9513715303309765,
+        0.937710390491415,
+        0.9504713836094703,
+        0.8756871732406857,
+        0.8844963014170881,
+        0.8400607066962474,
+        0.8020518809259226,
+        0.7553183775285419,
+        0.8265888838206776
+      ],
+      "unmatched_reference_indices": [
+        0,
+        4,
+        9,
+        12,
+        13,
+        16,
+        18,
+        19
+      ],
+      "unmatched_editorial_regions": 7,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        23,
+        24,
+        26
+      ],
+      "matched_labels": [
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "ad"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p3",
+      "model": "american",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 527604.0539132446,
+      "editorial_area_covered_by_text": 518477.13635798026,
+      "ad_reference_area": 671621.2463805669,
+      "ad_area_labeled_as_text": 354903.99797151185,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 33,
+      "reference_regions": 28,
+      "matches_iou50": 20,
+      "precision_iou50": 0.6060606060606061,
+      "recall_iou50": 0.7142857142857143,
+      "matched_ious": [
+        0.9818369928522944,
+        0.9550763413965454,
+        0.9943509121538721,
+        0.975659256763241,
+        0.9685882020060341,
+        0.9638924410252696,
+        0.9458897899940036,
+        0.9243893414529242,
+        0.9632943994170817,
+        0.946842867724493,
+        0.9618191171730592,
+        0.9536634601383358,
+        0.9248843940190585,
+        0.9600948511157752,
+        0.8788074457983335,
+        0.8795323568368036,
+        0.8433954397063688,
+        0.8229657845539207,
+        0.9918857283561895,
+        0.9733492882242266
+      ],
+      "unmatched_reference_indices": [
+        0,
+        4,
+        9,
+        12,
+        13,
+        16,
+        18,
+        19
+      ],
+      "unmatched_editorial_regions": 7,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        23,
+        24,
+        26
+      ],
+      "matched_labels": [
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "article",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p7",
+      "model": "american",
+      "dpi": 150,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 330421.72630653554,
+      "editorial_area_covered_by_text": 320985.99861121125,
+      "ad_reference_area": 712279.3580474262,
+      "ad_area_labeled_as_text": 18710.77506246717,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 34,
+      "reference_regions": 26,
+      "matches_iou50": 22,
+      "precision_iou50": 0.6470588235294118,
+      "recall_iou50": 0.8461538461538461,
+      "matched_ious": [
+        0.9793575568382832,
+        0.984447114225664,
+        0.9273746715392545,
+        0.9552326810933632,
+        0.931778264546987,
+        0.9161328595935361,
+        0.9565895296878452,
+        0.9440393108465209,
+        0.9433494835653573,
+        0.9545657891280357,
+        0.9372655982685127,
+        0.8676662440061946,
+        0.8935252483500591,
+        0.6522363744058869,
+        0.9517100398229671,
+        0.7449964993953748,
+        0.9477141979340117,
+        0.8094167485306043,
+        0.7908800189573263,
+        0.7624057147917981,
+        0.8933062998964882,
+        0.8369394990760965
+      ],
+      "unmatched_reference_indices": [
+        2,
+        7,
+        19,
+        21
+      ],
+      "unmatched_editorial_regions": 4,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        4,
+        13,
+        23,
+        24
+      ],
+      "matched_labels": [
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "table",
+          "table"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "headline",
+          "furniture"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p7",
+      "model": "american",
+      "dpi": 300,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 330421.72630653554,
+      "editorial_area_covered_by_text": 321219.2945199424,
+      "ad_reference_area": 712279.3580474262,
+      "ad_area_labeled_as_text": 2231.368958028085,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 32,
+      "reference_regions": 26,
+      "matches_iou50": 22,
+      "precision_iou50": 0.6875,
+      "recall_iou50": 0.8461538461538461,
+      "matched_ious": [
+        0.9775102138560982,
+        0.990937442608422,
+        0.9332268474321891,
+        0.9550289246460537,
+        0.9324957804856109,
+        0.9553659562085804,
+        0.9442447001376976,
+        0.9425078062732394,
+        0.9493788241049744,
+        0.9382539389353782,
+        0.8773515004355564,
+        0.899204229885738,
+        0.9458040826842906,
+        0.7667442733921316,
+        0.8272712759775488,
+        0.8943628690653175,
+        0.6758837331504807,
+        0.9505767389371931,
+        0.7903861439677681,
+        0.8298493499163542,
+        0.8859076565531931,
+        0.8491891609991752
+      ],
+      "unmatched_reference_indices": [
+        2,
+        7,
+        19,
+        21
+      ],
+      "unmatched_editorial_regions": 4,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        4,
+        13,
+        24
+      ],
+      "matched_labels": [
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "newspaper_header",
+          "furniture"
+        ],
+        [
+          "headline",
+          "furniture"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "cartoon_or_advertisement",
+          "ad"
+        ],
+        [
+          "table",
+          "table"
+        ],
+        [
+          "headline",
+          "headline"
+        ],
+        [
+          "article",
+          "body"
+        ],
+        [
+          "article",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p1",
+      "model": "paddle",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 466926.94794335245,
+      "editorial_area_covered_by_text": 423006.74699661037,
+      "ad_reference_area": 400524.60249418736,
+      "ad_area_labeled_as_text": 60032.248127889136,
+      "editorial_regions_below_10pct_coverage": 2,
+      "predictions": 61,
+      "reference_regions": 31,
+      "matches_iou50": 20,
+      "precision_iou50": 0.32786885245901637,
+      "recall_iou50": 0.6451612903225806,
+      "matched_ious": [
+        0.9607951660264962,
+        0.8309904253562482,
+        0.9785464016962733,
+        0.8793137211722301,
+        0.5431526258205699,
+        0.7516122444579066,
+        0.9610617516683938,
+        0.8515754292423899,
+        0.6924539457921559,
+        0.8444218065136437,
+        0.7264945796483258,
+        0.6204245335290347,
+        0.9895953470107347,
+        0.9407842332665968,
+        0.5906184830223506,
+        0.592813603184128,
+        0.9397918780298029,
+        0.6772652413731574,
+        0.8984467093159737,
+        0.9617540218528426
+      ],
+      "unmatched_reference_indices": [
+        0,
+        1,
+        8,
+        9,
+        12,
+        18,
+        22,
+        25,
+        28,
+        29,
+        30
+      ],
+      "unmatched_editorial_regions": 8,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        4,
+        7,
+        10,
+        13,
+        14,
+        18,
+        19,
+        20,
+        24,
+        25,
+        29,
+        30
+      ],
+      "matched_labels": [
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "vision_footnote",
+          "caption"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "ad"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "byline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p1",
+      "model": "paddle",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 466926.94794335245,
+      "editorial_area_covered_by_text": 429364.53811023536,
+      "ad_reference_area": 400524.60249418736,
+      "ad_area_labeled_as_text": 58291.35029695658,
+      "editorial_regions_below_10pct_coverage": 1,
+      "predictions": 63,
+      "reference_regions": 31,
+      "matches_iou50": 22,
+      "precision_iou50": 0.3492063492063492,
+      "recall_iou50": 0.7096774193548387,
+      "matched_ious": [
+        0.962133709258834,
+        0.8576321818794674,
+        0.8734302548386071,
+        0.9878709448399479,
+        0.7416410552148275,
+        0.554439401650608,
+        0.9633586006939517,
+        0.8527945624107939,
+        0.5899468238131954,
+        0.7013318134913809,
+        0.8365566893199133,
+        0.5082971853185972,
+        0.7126747092235042,
+        0.5878220247893435,
+        0.9822266799192194,
+        0.943450477022671,
+        0.5889655568900092,
+        0.5915358332619355,
+        0.9441889588212329,
+        0.6772375318002917,
+        0.8990343644201862,
+        0.949797459400034
+      ],
+      "unmatched_reference_indices": [
+        0,
+        1,
+        9,
+        18,
+        22,
+        25,
+        28,
+        29,
+        30
+      ],
+      "unmatched_editorial_regions": 6,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        4,
+        7,
+        9,
+        10,
+        13,
+        14,
+        18,
+        19,
+        20,
+        24,
+        25,
+        29,
+        30
+      ],
+      "matched_labels": [
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "vision_footnote",
+          "caption"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "ad"
+        ],
+        [
+          "paragraph_title",
+          "byline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "byline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "byline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p3",
+      "model": "paddle",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 663305.3983005706,
+      "editorial_area_covered_by_text": 621945.8980941122,
+      "ad_reference_area": 195377.7339251744,
+      "ad_area_labeled_as_text": 42040.01929741317,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 70,
+      "reference_regions": 41,
+      "matches_iou50": 30,
+      "precision_iou50": 0.42857142857142855,
+      "recall_iou50": 0.7317073170731707,
+      "matched_ious": [
+        0.9885641000376506,
+        0.8801368213743436,
+        0.8853934055984527,
+        0.5335605181322567,
+        0.8893702885440077,
+        0.6529873407632513,
+        0.9479504661087368,
+        0.7356378089963804,
+        0.8242040384935001,
+        0.6484290389500686,
+        0.9639019812203531,
+        0.7129233645139514,
+        0.9298180039238444,
+        0.5161730503418434,
+        0.993848308272535,
+        0.6774109971235697,
+        0.5060202660342338,
+        0.896673857445274,
+        0.5175781478390887,
+        0.873387673225254,
+        0.8910636134549003,
+        0.9670642651596372,
+        0.9621757534875998,
+        0.9552340449699573,
+        0.7062956561543929,
+        0.5525584270626421,
+        0.9123805890290516,
+        0.5003274218292948,
+        0.6399126682979551,
+        0.9665609419937389
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        4,
+        11,
+        12,
+        18,
+        19,
+        25,
+        26,
+        33,
+        37
+      ],
+      "unmatched_editorial_regions": 10,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        2,
+        5,
+        6,
+        7,
+        8,
+        12,
+        14,
+        15,
+        19,
+        20,
+        21,
+        23,
+        26,
+        29,
+        33,
+        34,
+        37,
+        40
+      ],
+      "matched_labels": [
+        [
+          "image",
+          "image"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "byline"
+        ],
+        [
+          "vision_footnote",
+          "caption"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p3",
+      "model": "paddle",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 663305.3983005706,
+      "editorial_area_covered_by_text": 621755.1161747107,
+      "ad_reference_area": 195377.7339251744,
+      "ad_area_labeled_as_text": 42158.11462238242,
+      "editorial_regions_below_10pct_coverage": 1,
+      "predictions": 67,
+      "reference_regions": 41,
+      "matches_iou50": 28,
+      "precision_iou50": 0.417910447761194,
+      "recall_iou50": 0.6829268292682927,
+      "matched_ious": [
+        0.9823192836460348,
+        0.8931493274098595,
+        0.9568548033942659,
+        0.5208411795533507,
+        0.8842062894216955,
+        0.9373963420977187,
+        0.9469367045501198,
+        0.725349417517055,
+        0.8191309041501752,
+        0.6420792059021945,
+        0.956931519164749,
+        0.7219879686413471,
+        0.9317129690709397,
+        0.9925977812903619,
+        0.6665425891275397,
+        0.5120138200623513,
+        0.8749036413256176,
+        0.5181625423959274,
+        0.8751605789151304,
+        0.9011122166157838,
+        0.9678787496078942,
+        0.9593797172653085,
+        0.936963419792149,
+        0.7050898992987232,
+        0.5516927002634574,
+        0.9028992368395542,
+        0.599610772445595,
+        0.9615773599731889
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        4,
+        11,
+        12,
+        18,
+        19,
+        20,
+        25,
+        26,
+        29,
+        33,
+        37
+      ],
+      "unmatched_editorial_regions": 12,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        2,
+        6,
+        7,
+        12,
+        14,
+        15,
+        19,
+        20,
+        21,
+        23,
+        26,
+        29,
+        33,
+        34,
+        37,
+        40
+      ],
+      "matched_labels": [
+        [
+          "image",
+          "image"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "byline"
+        ],
+        [
+          "vision_footnote",
+          "caption"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p7",
+      "model": "paddle",
+      "dpi": 150,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 1026863.0002282816,
+      "editorial_area_covered_by_text": 994868.9652807527,
+      "ad_reference_area": 0,
+      "ad_area_labeled_as_text": 0,
+      "editorial_regions_below_10pct_coverage": 1,
+      "predictions": 70,
+      "reference_regions": 35,
+      "matches_iou50": 27,
+      "precision_iou50": 0.38571428571428573,
+      "recall_iou50": 0.7714285714285715,
+      "matched_ious": [
+        0.9501044384783267,
+        0.9105170169575673,
+        0.5030410889821122,
+        0.5498093223517678,
+        0.6446957058131916,
+        0.5492367714563303,
+        0.9440874069535065,
+        0.5871668729705728,
+        0.9697636413454487,
+        0.8840195226632412,
+        0.5204193282333376,
+        0.6951482531925068,
+        0.6266309824079318,
+        0.5409975334868934,
+        0.9251151958693523,
+        0.693617187158288,
+        0.9414269943088364,
+        0.9273769691545464,
+        0.5477990076232843,
+        0.9263657006636955,
+        0.8670967056105178,
+        0.906626318286774,
+        0.9624404237738152,
+        0.6429916468015445,
+        0.9433641223696743,
+        0.910315572834185,
+        0.691523805122442
+      ],
+      "unmatched_reference_indices": [
+        0,
+        3,
+        4,
+        14,
+        16,
+        20,
+        27,
+        33
+      ],
+      "unmatched_editorial_regions": 7,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        21,
+        22,
+        23,
+        24,
+        28,
+        30,
+        32,
+        33
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "byline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_02_20_p7",
+      "model": "paddle",
+      "dpi": 300,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 1026863.0002282816,
+      "editorial_area_covered_by_text": 1006793.5705899915,
+      "ad_reference_area": 0,
+      "ad_area_labeled_as_text": 0,
+      "editorial_regions_below_10pct_coverage": 2,
+      "predictions": 64,
+      "reference_regions": 35,
+      "matches_iou50": 27,
+      "precision_iou50": 0.421875,
+      "recall_iou50": 0.7714285714285715,
+      "matched_ious": [
+        0.9508871911861325,
+        0.9422093299019917,
+        0.9568466209136068,
+        0.6429790185373855,
+        0.54952385996643,
+        0.952330408575613,
+        0.5867919623804073,
+        0.9814173758548529,
+        0.5180696362105461,
+        0.6984562324649551,
+        0.6256781411711547,
+        0.5411555441571496,
+        0.930681436241859,
+        0.9034048643470879,
+        0.9679259711619609,
+        0.6791476212557234,
+        0.5500115758671786,
+        0.9291393614141782,
+        0.6576400733411857,
+        0.9325264120736971,
+        0.8631931214511409,
+        0.9007637607244409,
+        0.9699091879328947,
+        0.6578981191923243,
+        0.9518744329112371,
+        0.9076810113063066,
+        0.6931700195354507
+      ],
+      "unmatched_reference_indices": [
+        0,
+        3,
+        4,
+        5,
+        14,
+        20,
+        27,
+        33
+      ],
+      "unmatched_editorial_regions": 7,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        4,
+        5,
+        7,
+        8,
+        10,
+        14,
+        15,
+        16,
+        21,
+        22,
+        23,
+        24,
+        28,
+        30,
+        32,
+        33
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "byline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p1",
+      "model": "paddle",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 475166.7419150285,
+      "editorial_area_covered_by_text": 457786.4590364358,
+      "ad_reference_area": 331403.7597801734,
+      "ad_area_labeled_as_text": 76105.07632917266,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 67,
+      "reference_regions": 37,
+      "matches_iou50": 23,
+      "precision_iou50": 0.34328358208955223,
+      "recall_iou50": 0.6216216216216216,
+      "matched_ious": [
+        0.9869436135984253,
+        0.9471082492614247,
+        0.9136824187299104,
+        0.5409347945177361,
+        0.717108231547732,
+        0.9118781191651526,
+        0.867670314832626,
+        0.6311084432102412,
+        0.5584256902827327,
+        0.8887068853892043,
+        0.5932825264901564,
+        0.8879609168404796,
+        0.9670793450887769,
+        0.6513367766000164,
+        0.7854344065970763,
+        0.6265448580740385,
+        0.8340501496799614,
+        0.9472184807979862,
+        0.6295633116892634,
+        0.9146940774578256,
+        0.8843360302302303,
+        0.8808758316749559,
+        0.6274349012431322
+      ],
+      "unmatched_reference_indices": [
+        0,
+        4,
+        8,
+        19,
+        20,
+        21,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "unmatched_editorial_regions": 10,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        5,
+        7,
+        8,
+        10,
+        15,
+        17,
+        20,
+        21,
+        22,
+        23,
+        26,
+        27,
+        30,
+        31,
+        32,
+        35
+      ],
+      "matched_labels": [
+        [
+          "image",
+          "image"
+        ],
+        [
+          "vision_footnote",
+          "caption"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p1",
+      "model": "paddle",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 475166.7419150285,
+      "editorial_area_covered_by_text": 455169.1486217293,
+      "ad_reference_area": 331403.7597801734,
+      "ad_area_labeled_as_text": 15201.043579553263,
+      "editorial_regions_below_10pct_coverage": 1,
+      "predictions": 66,
+      "reference_regions": 37,
+      "matches_iou50": 23,
+      "precision_iou50": 0.3484848484848485,
+      "recall_iou50": 0.6216216216216216,
+      "matched_ious": [
+        0.9879599992877552,
+        0.9556216229528427,
+        0.9186821625843357,
+        0.5314647437850546,
+        0.7243715883705003,
+        0.9089468523636045,
+        0.8699243803624176,
+        0.5995275547363467,
+        0.5590319495093827,
+        0.8754240791663902,
+        0.5826817013479584,
+        0.8889233914950946,
+        0.9525015125912759,
+        0.6492449106158135,
+        0.8343965339480758,
+        0.63699343070039,
+        0.8262793696456403,
+        0.9134343766857184,
+        0.897723412429179,
+        0.6298454203706869,
+        0.9120008414762087,
+        0.8804863720840279,
+        0.6265090379835766
+      ],
+      "unmatched_reference_indices": [
+        0,
+        4,
+        8,
+        19,
+        20,
+        21,
+        26,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "unmatched_editorial_regions": 10,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        5,
+        7,
+        8,
+        10,
+        15,
+        17,
+        20,
+        21,
+        22,
+        23,
+        26,
+        27,
+        30,
+        31,
+        32,
+        35
+      ],
+      "matched_labels": [
+        [
+          "image",
+          "image"
+        ],
+        [
+          "vision_footnote",
+          "caption"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p3",
+      "model": "paddle",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 155594.04885225112,
+      "editorial_area_covered_by_text": 151936.8111165225,
+      "ad_reference_area": 1098190.576402452,
+      "ad_area_labeled_as_text": 106225.75090355019,
+      "editorial_regions_below_10pct_coverage": 0,
+      "predictions": 30,
+      "reference_regions": 15,
+      "matches_iou50": 8,
+      "precision_iou50": 0.26666666666666666,
+      "recall_iou50": 0.5333333333333333,
+      "matched_ious": [
+        0.9678944887259877,
+        0.5936945932737746,
+        0.9626404759951248,
+        0.935759515713096,
+        0.8967714634257428,
+        0.9559478832164212,
+        0.9903843140572522,
+        0.5885492925891463
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        4,
+        5,
+        8,
+        11,
+        12
+      ],
+      "unmatched_editorial_regions": 4,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "ad"
+        ],
+        [
+          "image",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p3",
+      "model": "paddle",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 155594.04885225112,
+      "editorial_area_covered_by_text": 145192.4302005894,
+      "ad_reference_area": 1098190.576402452,
+      "ad_area_labeled_as_text": 81014.96892970346,
+      "editorial_regions_below_10pct_coverage": 2,
+      "predictions": 25,
+      "reference_regions": 15,
+      "matches_iou50": 6,
+      "precision_iou50": 0.24,
+      "recall_iou50": 0.4,
+      "matched_ious": [
+        0.9664071080187566,
+        0.9660804182242196,
+        0.515822871091492,
+        0.9290514853665272,
+        0.9646304444344637,
+        0.9921932538441728
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        8,
+        11,
+        12,
+        14
+      ],
+      "unmatched_editorial_regions": 5,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        3,
+        4,
+        5,
+        8,
+        11,
+        12
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p7",
+      "model": "paddle",
+      "dpi": 150,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 990752.9064975694,
+      "editorial_area_covered_by_text": 969178.6271714127,
+      "ad_reference_area": 0,
+      "ad_area_labeled_as_text": 0,
+      "editorial_regions_below_10pct_coverage": 3,
+      "predictions": 68,
+      "reference_regions": 36,
+      "matches_iou50": 24,
+      "precision_iou50": 0.35294117647058826,
+      "recall_iou50": 0.6666666666666666,
+      "matched_ious": [
+        0.9318935245946238,
+        0.9445376216931121,
+        0.57707988477375,
+        0.5237097664442445,
+        0.9536997293131098,
+        0.7475645318394368,
+        0.9345167900026253,
+        0.9255540103805208,
+        0.9331966650927785,
+        0.9485035068121969,
+        0.6381202315325539,
+        0.5517579524808571,
+        0.6063500358935469,
+        0.9616010751155701,
+        0.9339572659163938,
+        0.5540959625093642,
+        0.8928129369690242,
+        0.8720186718271207,
+        0.9189295507878635,
+        0.9792907396962578,
+        0.8944061188604184,
+        0.8747436574112384,
+        0.5767116348976515,
+        0.9208924250863316
+      ],
+      "unmatched_reference_indices": [
+        0,
+        4,
+        7,
+        13,
+        14,
+        16,
+        20,
+        21,
+        27,
+        28,
+        29,
+        32
+      ],
+      "unmatched_editorial_regions": 10,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        4,
+        5,
+        7,
+        10,
+        14,
+        15,
+        16,
+        21,
+        22,
+        23,
+        24,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "byline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "vision_footnote",
+          "caption"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "KPUR_2013_07_31_p7",
+      "model": "paddle",
+      "dpi": 300,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 990752.9064975694,
+      "editorial_area_covered_by_text": 908815.59080404,
+      "ad_reference_area": 0,
+      "ad_area_labeled_as_text": 0,
+      "editorial_regions_below_10pct_coverage": 4,
+      "predictions": 65,
+      "reference_regions": 36,
+      "matches_iou50": 21,
+      "precision_iou50": 0.3230769230769231,
+      "recall_iou50": 0.5833333333333334,
+      "matched_ious": [
+        0.9284846652685146,
+        0.958527486775454,
+        0.5238177680458749,
+        0.954569239126696,
+        0.7400152814656854,
+        0.9236592686836067,
+        0.9285945561902292,
+        0.9586866634769152,
+        0.9594367064275947,
+        0.6392926376099705,
+        0.605884459645157,
+        0.9685404698678697,
+        0.9398633669718123,
+        0.5552706458718465,
+        0.9054959594017438,
+        0.8642615639469236,
+        0.9765691402198692,
+        0.535929695390962,
+        0.8969028140209743,
+        0.5790400878350187,
+        0.9222545169795063
+      ],
+      "unmatched_reference_indices": [
+        0,
+        3,
+        4,
+        7,
+        13,
+        14,
+        16,
+        20,
+        21,
+        23,
+        25,
+        27,
+        28,
+        29,
+        32
+      ],
+      "unmatched_editorial_regions": 13,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        4,
+        5,
+        7,
+        10,
+        14,
+        15,
+        16,
+        21,
+        22,
+        24,
+        29,
+        30,
+        32,
+        33
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "image",
+          "image"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "vision_footnote",
+          "caption"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p1",
+      "model": "paddle",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 667843.940155003,
+      "editorial_area_covered_by_text": 644629.4929941961,
+      "ad_reference_area": 194267.7077246964,
+      "ad_area_labeled_as_text": 0.0,
+      "editorial_regions_below_10pct_coverage": 1,
+      "predictions": 88,
+      "reference_regions": 35,
+      "matches_iou50": 17,
+      "precision_iou50": 0.19318181818181818,
+      "recall_iou50": 0.4857142857142857,
+      "matched_ious": [
+        0.9575058526106381,
+        0.9281020808182908,
+        0.9489385458140913,
+        0.8953452003390562,
+        0.9655206467821263,
+        0.9145421758461727,
+        0.5230801331578155,
+        0.525145157698244,
+        0.9409152098491903,
+        0.9217031559496786,
+        0.6006115395628594,
+        0.946732648395709,
+        0.5602297531876337,
+        0.899176431207733,
+        0.5677544530554722,
+        0.5146546139513436,
+        0.9604270600878207
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        12,
+        15,
+        16,
+        18,
+        19,
+        21,
+        22,
+        25,
+        27,
+        30,
+        31,
+        32
+      ],
+      "unmatched_editorial_regions": 16,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        3,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        19,
+        22,
+        23,
+        24,
+        25,
+        27,
+        31,
+        32,
+        33,
+        34
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p1",
+      "model": "paddle",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 667843.940155003,
+      "editorial_area_covered_by_text": 645696.8746856266,
+      "ad_reference_area": 194267.7077246964,
+      "ad_area_labeled_as_text": 0.0,
+      "editorial_regions_below_10pct_coverage": 1,
+      "predictions": 88,
+      "reference_regions": 35,
+      "matches_iou50": 17,
+      "precision_iou50": 0.19318181818181818,
+      "recall_iou50": 0.4857142857142857,
+      "matched_ious": [
+        0.9642912718626782,
+        0.9359880048533693,
+        0.9477932234129892,
+        0.8939786072893015,
+        0.9699451309851003,
+        0.9128077220736526,
+        0.5250910728874445,
+        0.5225951254112511,
+        0.9373194425122566,
+        0.9113766697916371,
+        0.5898533550734623,
+        0.9463047053952923,
+        0.5656785392641963,
+        0.8995928758156548,
+        0.5673061699932791,
+        0.5164867611977765,
+        0.9600240187457348
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        12,
+        15,
+        16,
+        18,
+        19,
+        21,
+        22,
+        25,
+        27,
+        30,
+        31,
+        32
+      ],
+      "unmatched_editorial_regions": 16,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        3,
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        19,
+        22,
+        23,
+        24,
+        25,
+        27,
+        31,
+        32,
+        33,
+        34
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "image",
+          "graphic"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "pull_quote"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "image",
+          "ad"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p3",
+      "model": "paddle",
+      "dpi": 150,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 527604.0539132446,
+      "editorial_area_covered_by_text": 506139.6168870375,
+      "ad_reference_area": 671621.2463805669,
+      "ad_area_labeled_as_text": 301573.998503212,
+      "editorial_regions_below_10pct_coverage": 1,
+      "predictions": 106,
+      "reference_regions": 28,
+      "matches_iou50": 7,
+      "precision_iou50": 0.0660377358490566,
+      "recall_iou50": 0.25,
+      "matched_ious": [
+        0.9105950119676575,
+        0.9412230760567755,
+        0.862716435521503,
+        0.9560727193977541,
+        0.9328483059721859,
+        0.8559523777184483,
+        0.9295835345920073
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        17,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "unmatched_editorial_regions": 16,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        2,
+        5,
+        6,
+        7,
+        10,
+        11,
+        14,
+        15,
+        17,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p3",
+      "model": "paddle",
+      "dpi": 300,
+      "split": "development",
+      "status": "ok",
+      "editorial_reference_area": 527604.0539132446,
+      "editorial_area_covered_by_text": 499703.70584817394,
+      "ad_reference_area": 671621.2463805669,
+      "ad_area_labeled_as_text": 317797.0236864761,
+      "editorial_regions_below_10pct_coverage": 2,
+      "predictions": 106,
+      "reference_regions": 28,
+      "matches_iou50": 8,
+      "precision_iou50": 0.07547169811320754,
+      "recall_iou50": 0.2857142857142857,
+      "matched_ious": [
+        0.9084254219764557,
+        0.9411589608095932,
+        0.870081597168705,
+        0.9622885173569595,
+        0.9368262094730228,
+        0.9913576594266876,
+        0.936362804616321,
+        0.5028467230388168
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26
+      ],
+      "unmatched_editorial_regions": 16,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        2,
+        5,
+        6,
+        7,
+        10,
+        11,
+        14,
+        15,
+        17,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "image",
+          "ad"
+        ],
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p7",
+      "model": "paddle",
+      "dpi": 150,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 330421.72630653554,
+      "editorial_area_covered_by_text": 294868.00768869027,
+      "ad_reference_area": 712279.3580474262,
+      "ad_area_labeled_as_text": 355740.8287145366,
+      "editorial_regions_below_10pct_coverage": 2,
+      "predictions": 92,
+      "reference_regions": 26,
+      "matches_iou50": 15,
+      "precision_iou50": 0.16304347826086957,
+      "recall_iou50": 0.5769230769230769,
+      "matched_ious": [
+        0.9725693119846833,
+        0.9313147965891799,
+        0.7551948494615208,
+        0.9450951847143196,
+        0.761925075196124,
+        0.9757842726206628,
+        0.7029919677997662,
+        0.8627045477810859,
+        0.81608357539989,
+        0.5816912765916773,
+        0.9262108169918628,
+        0.9026942722469519,
+        0.9325274884802629,
+        0.6696350217644037,
+        0.9080180797160625
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        19,
+        23,
+        24,
+        25
+      ],
+      "unmatched_editorial_regions": 7,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        0,
+        3,
+        4,
+        5,
+        9,
+        11,
+        13,
+        23,
+        24,
+        25
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "table",
+          "table"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "furniture"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ]
+      ]
+    },
+    {
+      "page_id": "TKP_2009_01_08_p7",
+      "model": "paddle",
+      "dpi": 300,
+      "split": "evaluation",
+      "status": "ok",
+      "editorial_reference_area": 330421.72630653554,
+      "editorial_area_covered_by_text": 294844.806935325,
+      "ad_reference_area": 712279.3580474262,
+      "ad_area_labeled_as_text": 352541.02267432446,
+      "editorial_regions_below_10pct_coverage": 2,
+      "predictions": 90,
+      "reference_regions": 26,
+      "matches_iou50": 16,
+      "precision_iou50": 0.17777777777777778,
+      "recall_iou50": 0.6153846153846154,
+      "matched_ious": [
+        0.9763830553081497,
+        0.9310849545911172,
+        0.7479638296866518,
+        0.9490550842863607,
+        0.762898963527863,
+        0.9736354480889486,
+        0.7100709068202625,
+        0.5825203413987226,
+        0.8604542180476775,
+        0.811788228319075,
+        0.809749840595725,
+        0.9289444235828626,
+        0.9326788467200361,
+        0.7327718557115195,
+        0.9080646238185719,
+        0.5085487321453902
+      ],
+      "unmatched_reference_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        23,
+        24,
+        25
+      ],
+      "unmatched_editorial_regions": 6,
+      "cross_article_merge_candidates": [],
+      "fragmentation_candidates": [
+        3,
+        4,
+        5,
+        9,
+        11,
+        13,
+        23,
+        24,
+        25
+      ],
+      "matched_labels": [
+        [
+          "doc_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "table",
+          "table"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "furniture"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ],
+        [
+          "text",
+          "body"
+        ],
+        [
+          "paragraph_title",
+          "headline"
+        ]
+      ]
+    }
+  ]
+}

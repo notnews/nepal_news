@@ -1,0 +1,7 @@
+[tool.black]
+include = '(experiments|tests)/.*\.py$'
+force-exclude = '/experiments/legacy/'
+
+[tool.isort]
+profile = "black"
+skip = [".venv"]

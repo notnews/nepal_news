@@ -1,0 +1,51 @@
+{
+  "source_pdf": "pdfs/KPUR_2013_02_20.pdf",
+  "pdf_page_index": 1,
+  "crop_bbox_150dpi": [
+    300,
+    1262,
+    500,
+    1802
+  ],
+  "version": "tesseract 5.5.2",
+  "runs": [
+    {
+      "dpi": 150,
+      "seconds": 0.615,
+      "characters": 575,
+      "command": [
+        "tesseract",
+        "experiments/local_ocr/results/body_150dpi.png",
+        "experiments/local_ocr/results/tesseract_nep_150dpi",
+        "-l",
+        "nep",
+        "--oem",
+        "1",
+        "--psm",
+        "6",
+        "txt",
+        "tsv"
+      ],
+      "input_sha256": "9d92a0fa637147d97db120e7a36d740ac2e17bdbcceb4991f49ab27afe326c11"
+    },
+    {
+      "dpi": 300,
+      "seconds": 0.669,
+      "characters": 574,
+      "command": [
+        "tesseract",
+        "experiments/local_ocr/results/body_300dpi.png",
+        "experiments/local_ocr/results/tesseract_nep_300dpi",
+        "-l",
+        "nep",
+        "--oem",
+        "1",
+        "--psm",
+        "6",
+        "txt",
+        "tsv"
+      ],
+      "input_sha256": "76f91ef8582ecdfbf2f424bf5a12bbcefdc457a40a04237a9ecb02740ddf1f75"
+    }
+  ]
+}

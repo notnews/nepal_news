@@ -1,0 +1,34 @@
+{
+  "api_cost_usd": 0,
+  "runs": 36,
+  "successful_runs": 36,
+  "timeout_seconds": 120,
+  "reference_pages": 9,
+  "reference_regions": 284,
+  "reference_status": "provisional assistant annotations; independent human review pending",
+  "quality_flags": [
+    {
+      "result": "american_KPUR_2013_07_31_p7_150.json",
+      "region_id": "r035",
+      "flags": [
+        "degenerate_bbox"
+      ]
+    },
+    {
+      "result": "paddle_KPUR_2013_07_31_p3_150.json",
+      "region_id": "r029",
+      "flags": [
+        "out_of_page_bbox"
+      ]
+    }
+  ],
+  "final_code_sha256": {
+    "run.py": "2e0cfcba79b0147d61299fc399bdf13470d19eb18eaadec768b74b8d76f963e4",
+    "evaluate.py": "d4c4fdf6b6a969f519b36afdd97471f98bfdc2b79ded36fda95c825ac0b3a4e3"
+  },
+  "notes": [
+    "No OCR or article assembly run.",
+    "Metrics added during development before evaluation runs; no model settings tuned.",
+    "Geometry flags added after inference; raw boxes retained."
+  ]
+}
