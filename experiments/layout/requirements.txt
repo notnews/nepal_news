@@ -1,0 +1,8 @@
+Pillow==12.3.0
+numpy
+pdfplumber
+torch==2.14.0
+transformers==5.16.1
+onnxruntime==1.29.0
+ultralytics==8.4.142
+huggingface-hub

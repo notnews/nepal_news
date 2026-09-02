@@ -1,0 +1,49 @@
+{
+  "case_id": "merged_headlines",
+  "page_id": "TKP_2009_01_08_p3",
+  "region_id": "r013",
+  "stratum": "disagreement",
+  "expected": "multiple_headlines",
+  "reference_status": "provisional assistant visual judgment",
+  "images": [
+    {
+      "path": "experiments/layout/results/agreement/qwen/merged_headlines_overview.jpg",
+      "sha256": "4105a687870c260edcf84a843ac7b14735e7a233d7e30f47f6f69a24b9ca0151",
+      "size": [
+        765,
+        1100
+      ]
+    },
+    {
+      "path": "experiments/layout/results/agreement/qwen/merged_headlines_detail.jpg",
+      "sha256": "7dab2c0687d6572630e7e619d200f7471945253a8745356f487f0f443a252ca7",
+      "size": [
+        1200,
+        276
+      ]
+    }
+  ],
+  "prompt": "The two images show a newspaper page overview and a detail crop.\nThe thin red rectangle identifies the target region; it is a machine overlay.\nDetermine the target's role in the newspaper using its contents AND context.\nChoose exactly one decision: advertisement, public_notice, pull_quote,\nheadline, multiple_headlines, body_text, photograph, editorial_group, uncertain.\nUse advertisement when a pictured person belongs to a commercial advertisement.\nUse pull_quote for a quotation displayed inside a story, not a new story title.\nUse multiple_headlines if the target merges headlines of distinct stories.\nUse editorial_group if it encloses an editorial story and/or sidebar with\nheadline and body components. Use uncertain if the images are insufficient.\nReturn only JSON with keys decision and evidence; evidence must be one short\nsentence describing visible evidence. Do not transcribe the article or invent\ncoordinates. No detector labels or reference answers are provided.",
+  "model": {
+    "repo": "mlx-community/Qwen3.5-4B-4bit",
+    "revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c"
+  },
+  "status": "completed",
+  "elapsed_seconds": 18.796803208068013,
+  "max_tokens": 192,
+  "thinking": "disabled",
+  "temperature": 0,
+  "stdout": "{\n \"decision\": \"headline\",\n \"evidence\": \"The red rectangle encloses the main title of a news story, which is formatted as a headline.\"\n}\n",
+  "stderr": "",
+  "parsed": {
+    "decision": "headline",
+    "evidence": "The red rectangle encloses the main title of a news story, which is formatted as a headline."
+  },
+  "matches_provisional_reference": false,
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-vlm": "0.6.17",
+    "transformers": "5.16.1",
+    "pillow": "12.3.0"
+  }
+}

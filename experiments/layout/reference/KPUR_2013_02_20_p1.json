@@ -1,0 +1,539 @@
+{
+  "version": "5.11.2",
+  "flags": {
+    "provisional_assistant_annotation": true
+  },
+  "shapes": [
+    {
+      "label": "furniture",
+      "points": [
+        [
+          3,
+          20
+        ],
+        [
+          945,
+          218
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "headline",
+      "points": [
+        [
+          4,
+          230
+        ],
+        [
+          114,
+          294
+        ]
+      ],
+      "group_id": 1,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "image",
+      "points": [
+        [
+          5,
+          304
+        ],
+        [
+          61,
+          357
+        ]
+      ],
+      "group_id": 1,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          65,
+          307
+        ],
+        [
+          114,
+          359
+        ]
+      ],
+      "group_id": 1,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          5,
+          362
+        ],
+        [
+          115,
+          609
+        ]
+      ],
+      "group_id": 1,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "headline",
+      "points": [
+        [
+          153,
+          249
+        ],
+        [
+          681,
+          416
+        ]
+      ],
+      "group_id": 2,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "image",
+      "points": [
+        [
+          146,
+          430
+        ],
+        [
+          687,
+          575
+        ]
+      ],
+      "group_id": 2,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "caption",
+      "points": [
+        [
+          146,
+          580
+        ],
+        [
+          687,
+          594
+        ]
+      ],
+      "group_id": 2,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "byline",
+      "points": [
+        [
+          146,
+          616
+        ],
+        [
+          241,
+          630
+        ]
+      ],
+      "group_id": 2,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          145,
+          639
+        ],
+        [
+          242,
+          870
+        ]
+      ],
+      "group_id": 2,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          251,
+          615
+        ],
+        [
+          348,
+          869
+        ]
+      ],
+      "group_id": 2,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "headline",
+      "points": [
+        [
+          368,
+          628
+        ],
+        [
+          584,
+          665
+        ]
+      ],
+      "group_id": 3,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "byline",
+      "points": [
+        [
+          368,
+          673
+        ],
+        [
+          460,
+          686
+        ]
+      ],
+      "group_id": 3,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          368,
+          693
+        ],
+        [
+          470,
+          859
+        ]
+      ],
+      "group_id": 3,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          479,
+          673
+        ],
+        [
+          581,
+          859
+        ]
+      ],
+      "group_id": 3,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "image",
+      "points": [
+        [
+          590,
+          620
+        ],
+        [
+          679,
+          860
+        ]
+      ],
+      "group_id": 3,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "headline",
+      "points": [
+        [
+          730,
+          232
+        ],
+        [
+          934,
+          332
+        ]
+      ],
+      "group_id": 4,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "byline",
+      "points": [
+        [
+          720,
+          350
+        ],
+        [
+          805,
+          364
+        ]
+      ],
+      "group_id": 4,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          718,
+          374
+        ],
+        [
+          814,
+          878
+        ]
+      ],
+      "group_id": 4,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          837,
+          353
+        ],
+        [
+          945,
+          548
+        ]
+      ],
+      "group_id": 4,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          837,
+          649
+        ],
+        [
+          945,
+          878
+        ]
+      ],
+      "group_id": 4,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "pull_quote",
+      "points": [
+        [
+          824,
+          568
+        ],
+        [
+          944,
+          629
+        ]
+      ],
+      "group_id": 4,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "ad",
+      "points": [
+        [
+          5,
+          615
+        ],
+        [
+          115,
+          633
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "ad",
+      "points": [
+        [
+          5,
+          820
+        ],
+        [
+          115,
+          879
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "ad",
+      "points": [
+        [
+          243,
+          901
+        ],
+        [
+          589,
+          1474
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "ad",
+      "points": [
+        [
+          599,
+          901
+        ],
+        [
+          943,
+          1474
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "graphic",
+      "points": [
+        [
+          6,
+          639
+        ],
+        [
+          116,
+          815
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "headline",
+      "points": [
+        [
+          4,
+          897
+        ],
+        [
+          226,
+          977
+        ]
+      ],
+      "group_id": 5,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "byline",
+      "points": [
+        [
+          5,
+          991
+        ],
+        [
+          113,
+          1006
+        ]
+      ],
+      "group_id": 5,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          5,
+          1014
+        ],
+        [
+          116,
+          1471
+        ]
+      ],
+      "group_id": 5,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    },
+    {
+      "label": "body",
+      "points": [
+        [
+          121,
+          993
+        ],
+        [
+          229,
+          1471
+        ]
+      ],
+      "group_id": 5,
+      "shape_type": "rectangle",
+      "flags": {},
+      "description": "Visual reference drawn from source image before inspecting model predictions."
+    }
+  ],
+  "imagePath": "KPUR_2013_02_20_p1.jpg",
+  "imageData": null,
+  "imageHeight": 1494,
+  "imageWidth": 950
+}

@@ -1,0 +1,49 @@
+{
+  "case_id": "body_control",
+  "page_id": "KPUR_2013_02_20_p7",
+  "region_id": "r007",
+  "stratum": "control",
+  "expected": "body_text",
+  "reference_status": "provisional assistant visual judgment",
+  "images": [
+    {
+      "path": "experiments/layout/results/agreement/qwen/body_control_overview.jpg",
+      "sha256": "0df7a2c9e0f870e768468bf1e3fd72c746c5d618e6c40347ddd492ab2b0f6142",
+      "size": [
+        699,
+        1100
+      ]
+    },
+    {
+      "path": "experiments/layout/results/agreement/qwen/body_control_detail.jpg",
+      "sha256": "0bc90c1fbc7f7697d1718c2b71996083be3d6daa50c77be6749c4d3812689c46",
+      "size": [
+        418,
+        1400
+      ]
+    }
+  ],
+  "prompt": "The two images show a newspaper page overview and a detail crop.\nThe thin red rectangle identifies the target region; it is a machine overlay.\nDetermine the target's role in the newspaper using its contents AND context.\nChoose exactly one decision: advertisement, public_notice, pull_quote,\nheadline, multiple_headlines, body_text, photograph, editorial_group, uncertain.\nUse advertisement when a pictured person belongs to a commercial advertisement.\nUse pull_quote for a quotation displayed inside a story, not a new story title.\nUse multiple_headlines if the target merges headlines of distinct stories.\nUse editorial_group if it encloses an editorial story and/or sidebar with\nheadline and body components. Use uncertain if the images are insufficient.\nReturn only JSON with keys decision and evidence; evidence must be one short\nsentence describing visible evidence. Do not transcribe the article or invent\ncoordinates. No detector labels or reference answers are provided.",
+  "model": {
+    "repo": "mlx-community/Qwen3.5-4B-4bit",
+    "revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c"
+  },
+  "status": "completed",
+  "elapsed_seconds": 19.53255712497048,
+  "max_tokens": 192,
+  "thinking": "disabled",
+  "temperature": 0,
+  "stdout": "```json\n{\n  \"decision\": \"body_text\",\n  \"evidence\": \"The red rectangle encloses a large block of text within the main article, which is characteristic of body text.\"\n}\n```\n",
+  "stderr": "",
+  "parsed": {
+    "decision": "body_text",
+    "evidence": "The red rectangle encloses a large block of text within the main article, which is characteristic of body text."
+  },
+  "matches_provisional_reference": true,
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-vlm": "0.6.17",
+    "transformers": "5.16.1",
+    "pillow": "12.3.0"
+  }
+}

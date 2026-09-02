@@ -1,0 +1,362 @@
+[
+  {
+    "page_id": "KPUR_2013_02_20_p1",
+    "page_index": 1,
+    "split": "development",
+    "source": "pdfs/KPUR_2013_02_20.pdf",
+    "source_sha256": "33c1c39dac49c6a75a9a5877b652341df13e8f862b2b2b18a503f77a1635b63f",
+    "dpi": 150,
+    "image": "tmp/layout/images/KPUR_2013_02_20_p1_150.png",
+    "image_sha256": "e7a47b9d96aa0da55650b57f357dec8e9a288b4f8fc23623a2a78d096480d3d7",
+    "image_size": [
+      1971,
+      3100
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 7866,
+    "native_rule_count": 70
+  },
+  {
+    "page_id": "KPUR_2013_02_20_p1",
+    "page_index": 1,
+    "split": "development",
+    "source": "pdfs/KPUR_2013_02_20.pdf",
+    "source_sha256": "33c1c39dac49c6a75a9a5877b652341df13e8f862b2b2b18a503f77a1635b63f",
+    "dpi": 300,
+    "image": "tmp/layout/images/KPUR_2013_02_20_p1_300.png",
+    "image_sha256": "fad7d7a27cedd951df13105735d6f0a731e962f4e7731bb3eb71defa6b0d3388",
+    "image_size": [
+      3942,
+      6200
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 7866,
+    "native_rule_count": 70
+  },
+  {
+    "page_id": "KPUR_2013_02_20_p3",
+    "page_index": 3,
+    "split": "development",
+    "source": "pdfs/KPUR_2013_02_20.pdf",
+    "source_sha256": "33c1c39dac49c6a75a9a5877b652341df13e8f862b2b2b18a503f77a1635b63f",
+    "dpi": 150,
+    "image": "tmp/layout/images/KPUR_2013_02_20_p3_150.png",
+    "image_sha256": "819f1bfad31e110775f55206a9868f23f9ec49ff6509b126408cfdd231a13aa7",
+    "image_size": [
+      1971,
+      3100
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 11828,
+    "native_rule_count": 184
+  },
+  {
+    "page_id": "KPUR_2013_02_20_p3",
+    "page_index": 3,
+    "split": "development",
+    "source": "pdfs/KPUR_2013_02_20.pdf",
+    "source_sha256": "33c1c39dac49c6a75a9a5877b652341df13e8f862b2b2b18a503f77a1635b63f",
+    "dpi": 300,
+    "image": "tmp/layout/images/KPUR_2013_02_20_p3_300.png",
+    "image_sha256": "646b22d3d18a098a6eea494bcb8f8329a5fda749bbad8bded2c3005632a7e3d3",
+    "image_size": [
+      3942,
+      6200
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 11828,
+    "native_rule_count": 184
+  },
+  {
+    "page_id": "KPUR_2013_02_20_p7",
+    "page_index": 7,
+    "split": "evaluation",
+    "source": "pdfs/KPUR_2013_02_20.pdf",
+    "source_sha256": "33c1c39dac49c6a75a9a5877b652341df13e8f862b2b2b18a503f77a1635b63f",
+    "dpi": 150,
+    "image": "tmp/layout/images/KPUR_2013_02_20_p7_150.png",
+    "image_sha256": "dab37daac3309a5af495158c564aaae5443751252aa199949fbe8fac3a94db38",
+    "image_size": [
+      1971,
+      3100
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 23404,
+    "native_rule_count": 34
+  },
+  {
+    "page_id": "KPUR_2013_02_20_p7",
+    "page_index": 7,
+    "split": "evaluation",
+    "source": "pdfs/KPUR_2013_02_20.pdf",
+    "source_sha256": "33c1c39dac49c6a75a9a5877b652341df13e8f862b2b2b18a503f77a1635b63f",
+    "dpi": 300,
+    "image": "tmp/layout/images/KPUR_2013_02_20_p7_300.png",
+    "image_sha256": "d0cf9d1b92ec06328662c55d1298e79e3e76741d168e35ccb432ac5a0f7d0ce2",
+    "image_size": [
+      3942,
+      6200
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 23404,
+    "native_rule_count": 34
+  },
+  {
+    "page_id": "KPUR_2013_07_31_p1",
+    "page_index": 1,
+    "split": "development",
+    "source": "pdfs/KPUR_2013_07_31.pdf",
+    "source_sha256": "e576cce6abc4cfd5b36459bab5f5b2e7587abf2f1660f2fd4fe21234f686113a",
+    "dpi": 150,
+    "image": "tmp/layout/images/KPUR_2013_07_31_p1_150.png",
+    "image_sha256": "795da140184703147a85efa5a7b5bd2760806e8b63232dbae7fe5d6d2744823f",
+    "image_size": [
+      1971,
+      3100
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 8286,
+    "native_rule_count": 22
+  },
+  {
+    "page_id": "KPUR_2013_07_31_p1",
+    "page_index": 1,
+    "split": "development",
+    "source": "pdfs/KPUR_2013_07_31.pdf",
+    "source_sha256": "e576cce6abc4cfd5b36459bab5f5b2e7587abf2f1660f2fd4fe21234f686113a",
+    "dpi": 300,
+    "image": "tmp/layout/images/KPUR_2013_07_31_p1_300.png",
+    "image_sha256": "a3285ed7f1dcf93dc4f9c45bd43cc0b4cfe8c4b46c9151bb6cb4d80e0df8c763",
+    "image_size": [
+      3942,
+      6200
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 8286,
+    "native_rule_count": 22
+  },
+  {
+    "page_id": "KPUR_2013_07_31_p3",
+    "page_index": 3,
+    "split": "development",
+    "source": "pdfs/KPUR_2013_07_31.pdf",
+    "source_sha256": "e576cce6abc4cfd5b36459bab5f5b2e7587abf2f1660f2fd4fe21234f686113a",
+    "dpi": 150,
+    "image": "tmp/layout/images/KPUR_2013_07_31_p3_150.png",
+    "image_sha256": "981f7f2ebbfaff1b32ffcfc5dbb1de2e1d8fbc9a2fbef4ff9527f09df72b201d",
+    "image_size": [
+      1971,
+      3100
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 3276,
+    "native_rule_count": 506
+  },
+  {
+    "page_id": "KPUR_2013_07_31_p3",
+    "page_index": 3,
+    "split": "development",
+    "source": "pdfs/KPUR_2013_07_31.pdf",
+    "source_sha256": "e576cce6abc4cfd5b36459bab5f5b2e7587abf2f1660f2fd4fe21234f686113a",
+    "dpi": 300,
+    "image": "tmp/layout/images/KPUR_2013_07_31_p3_300.png",
+    "image_sha256": "efab1f7240413071bed18827dafff22a20d21c36ea7fab295ac820c7cd26938f",
+    "image_size": [
+      3942,
+      6200
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 3276,
+    "native_rule_count": 506
+  },
+  {
+    "page_id": "KPUR_2013_07_31_p7",
+    "page_index": 7,
+    "split": "evaluation",
+    "source": "pdfs/KPUR_2013_07_31.pdf",
+    "source_sha256": "e576cce6abc4cfd5b36459bab5f5b2e7587abf2f1660f2fd4fe21234f686113a",
+    "dpi": 150,
+    "image": "tmp/layout/images/KPUR_2013_07_31_p7_150.png",
+    "image_sha256": "1d39316f956db4b5fe93baee01dd42ba49204dcd753ff3380baffd2b86560068",
+    "image_size": [
+      1971,
+      3100
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 21449,
+    "native_rule_count": 35
+  },
+  {
+    "page_id": "KPUR_2013_07_31_p7",
+    "page_index": 7,
+    "split": "evaluation",
+    "source": "pdfs/KPUR_2013_07_31.pdf",
+    "source_sha256": "e576cce6abc4cfd5b36459bab5f5b2e7587abf2f1660f2fd4fe21234f686113a",
+    "dpi": 300,
+    "image": "tmp/layout/images/KPUR_2013_07_31_p7_300.png",
+    "image_sha256": "257f0f49d1b0362aa3133191b6e62b7b96f957a15f6954801300128e9e8ee16c",
+    "image_size": [
+      3942,
+      6200
+    ],
+    "page_size_pt": [
+      946,
+      1488
+    ],
+    "native_char_count": 21449,
+    "native_rule_count": 35
+  },
+  {
+    "page_id": "TKP_2009_01_08_p1",
+    "page_index": 1,
+    "split": "development",
+    "source": "pdfs/TKP_2009_01_08.pdf",
+    "source_sha256": "bfb9b278d1fdeeceea2d5c34c9db39dd354d6668b3d485f7e66c5892315534d8",
+    "dpi": 150,
+    "image": "tmp/layout/images/TKP_2009_01_08_p1_150.png",
+    "image_sha256": "2acdde8c38d60af455d690a1acea6ed81eca373a7ff83f8c6aabd29dfd27366b",
+    "image_size": [
+      2244,
+      3225
+    ],
+    "page_size_pt": [
+      1077,
+      1548
+    ],
+    "native_char_count": 11814,
+    "native_rule_count": 113
+  },
+  {
+    "page_id": "TKP_2009_01_08_p1",
+    "page_index": 1,
+    "split": "development",
+    "source": "pdfs/TKP_2009_01_08.pdf",
+    "source_sha256": "bfb9b278d1fdeeceea2d5c34c9db39dd354d6668b3d485f7e66c5892315534d8",
+    "dpi": 300,
+    "image": "tmp/layout/images/TKP_2009_01_08_p1_300.png",
+    "image_sha256": "ec43e6d76b4c07a475bae2cc57dc1211335665f27f10b171ceab12d18e450656",
+    "image_size": [
+      4488,
+      6450
+    ],
+    "page_size_pt": [
+      1077,
+      1548
+    ],
+    "native_char_count": 11814,
+    "native_rule_count": 113
+  },
+  {
+    "page_id": "TKP_2009_01_08_p3",
+    "page_index": 3,
+    "split": "development",
+    "source": "pdfs/TKP_2009_01_08.pdf",
+    "source_sha256": "bfb9b278d1fdeeceea2d5c34c9db39dd354d6668b3d485f7e66c5892315534d8",
+    "dpi": 150,
+    "image": "tmp/layout/images/TKP_2009_01_08_p3_150.png",
+    "image_sha256": "8702511ebae5b39fcfa618b13fdb7e41b8e120ae30cf08b109869309564c8e5c",
+    "image_size": [
+      2244,
+      3225
+    ],
+    "page_size_pt": [
+      1077,
+      1548
+    ],
+    "native_char_count": 9143,
+    "native_rule_count": 566
+  },
+  {
+    "page_id": "TKP_2009_01_08_p3",
+    "page_index": 3,
+    "split": "development",
+    "source": "pdfs/TKP_2009_01_08.pdf",
+    "source_sha256": "bfb9b278d1fdeeceea2d5c34c9db39dd354d6668b3d485f7e66c5892315534d8",
+    "dpi": 300,
+    "image": "tmp/layout/images/TKP_2009_01_08_p3_300.png",
+    "image_sha256": "1cc3d92a40819c0e0383926de1a4bf7fb72514a12ff22812115ad499bc6429cf",
+    "image_size": [
+      4488,
+      6450
+    ],
+    "page_size_pt": [
+      1077,
+      1548
+    ],
+    "native_char_count": 9143,
+    "native_rule_count": 566
+  },
+  {
+    "page_id": "TKP_2009_01_08_p7",
+    "page_index": 7,
+    "split": "evaluation",
+    "source": "pdfs/TKP_2009_01_08.pdf",
+    "source_sha256": "bfb9b278d1fdeeceea2d5c34c9db39dd354d6668b3d485f7e66c5892315534d8",
+    "dpi": 150,
+    "image": "tmp/layout/images/TKP_2009_01_08_p7_150.png",
+    "image_sha256": "6041a7fe064c654669a59bdaab55dffc36b97a9319d9264e315d517a52c055f5",
+    "image_size": [
+      2244,
+      3225
+    ],
+    "page_size_pt": [
+      1077,
+      1548
+    ],
+    "native_char_count": 9136,
+    "native_rule_count": 552
+  },
+  {
+    "page_id": "TKP_2009_01_08_p7",
+    "page_index": 7,
+    "split": "evaluation",
+    "source": "pdfs/TKP_2009_01_08.pdf",
+    "source_sha256": "bfb9b278d1fdeeceea2d5c34c9db39dd354d6668b3d485f7e66c5892315534d8",
+    "dpi": 300,
+    "image": "tmp/layout/images/TKP_2009_01_08_p7_300.png",
+    "image_sha256": "e68889534fe11146c3721125001b506ccc788380ce95be13697223c08c2ff661",
+    "image_size": [
+      4488,
+      6450
+    ],
+    "page_size_pt": [
+      1077,
+      1548
+    ],
+    "native_char_count": 9136,
+    "native_rule_count": 552
+  }
+]

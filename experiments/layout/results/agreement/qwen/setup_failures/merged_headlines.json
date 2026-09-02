@@ -1,0 +1,46 @@
+{
+  "case_id": "merged_headlines",
+  "page_id": "TKP_2009_01_08_p3",
+  "region_id": "r013",
+  "stratum": "disagreement",
+  "expected": "multiple_headlines",
+  "reference_status": "provisional assistant visual judgment",
+  "images": [
+    {
+      "path": "experiments/layout/results/agreement/qwen/merged_headlines_overview.jpg",
+      "sha256": "4105a687870c260edcf84a843ac7b14735e7a233d7e30f47f6f69a24b9ca0151",
+      "size": [
+        765,
+        1100
+      ]
+    },
+    {
+      "path": "experiments/layout/results/agreement/qwen/merged_headlines_detail.jpg",
+      "sha256": "7dab2c0687d6572630e7e619d200f7471945253a8745356f487f0f443a252ca7",
+      "size": [
+        1200,
+        276
+      ]
+    }
+  ],
+  "prompt": "The two images show a newspaper page overview and a detail crop.\nThe thin red rectangle identifies the target region; it is a machine overlay.\nDetermine the target's role in the newspaper using its contents AND context.\nChoose exactly one decision: advertisement, public_notice, pull_quote,\nheadline, multiple_headlines, body_text, photograph, editorial_group, uncertain.\nUse advertisement when a pictured person belongs to a commercial advertisement.\nUse pull_quote for a quotation displayed inside a story, not a new story title.\nUse multiple_headlines if the target merges headlines of distinct stories.\nUse editorial_group if it encloses an editorial story and/or sidebar with\nheadline and body components. Use uncertain if the images are insufficient.\nReturn only JSON with keys decision and evidence; evidence must be one short\nsentence describing visible evidence. Do not transcribe the article or invent\ncoordinates. No detector labels or reference answers are provided.",
+  "model": {
+    "repo": "mlx-community/Qwen3.5-4B-4bit",
+    "revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c"
+  },
+  "status": "failed",
+  "elapsed_seconds": 6.058245958061889,
+  "max_tokens": 192,
+  "thinking": "disabled",
+  "temperature": 0,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/tmp/nepal-qwen-venv/lib/python3.13/site-packages/mlx_vlm/generate/__main__.py\", line 4, in <module>\n    main()\n    ~~~~^^\n  File \"/tmp/nepal-qwen-venv/lib/python3.13/site-packages/mlx_vlm/generate/dispatch.py\", line 1389, in main\n    prompt = apply_chat_template(\n        processor,\n    ...<4 lines>...\n        **chat_template_kwargs,\n    )\n  File \"/tmp/nepal-qwen-venv/lib/python3.13/site-packages/mlx_vlm/prompt_utils.py\", line 997, in apply_chat_template\n    return get_chat_template(processor, messages, add_generation_prompt, **kwargs)\n  File \"/tmp/nepal-qwen-venv/lib/python3.13/site-packages/mlx_vlm/prompt_utils.py\", line 817, in get_chat_template\n    return template_processor.apply_chat_template(\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        messages,\n        ^^^^^^^^^\n    ...<2 lines>...\n        **template_kwargs,\n        ^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/tmp/nepal-qwen-venv/lib/python3.13/site-packages/transformers/processing_utils.py\", line 2048, in apply_chat_template\n    template_kwargs = _get_template_variables(chat_template)\n  File \"/tmp/nepal-qwen-venv/lib/python3.13/site-packages/transformers/utils/chat_template_utils.py\", line 396, in _get_template_variables\n    compiled = _compile_jinja_template(chat_template)\n  File \"/tmp/nepal-qwen-venv/lib/python3.13/site-packages/transformers/utils/chat_template_utils.py\", line 421, in _compile_jinja_template\n    return _cached_compile_jinja_template(chat_template)\n  File \"/tmp/nepal-qwen-venv/lib/python3.13/site-packages/transformers/utils/chat_template_utils.py\", line 427, in _cached_compile_jinja_template\n    raise ImportError(\n        \"apply_chat_template requires jinja2 to be installed. Please install it using `pip install jinja2`.\"\n    )\nImportError: apply_chat_template requires jinja2 to be installed. Please install it using `pip install jinja2`.\n",
+  "parsed": null,
+  "matches_provisional_reference": null,
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-vlm": "0.6.17",
+    "transformers": "5.16.1",
+    "pillow": "12.3.0"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "requests_submitted": 2,
+  "approved_requests_held": 4,
+  "total_cost_usd": 0.135283,
+  "reason_stopped": "Coordinate and transcription failures in both variants; do not scale the current prompt.",
+  "requests": [
+    {
+      "custom_id": "KPUR_2013_02_20_p1_tiles",
+      "model": "claude-sonnet-5",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 13595,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 9383,
+        "output_tokens_details": {
+          "thinking_tokens": 274
+        },
+        "service_tier": "batch",
+        "inference_geo": "global"
+      },
+      "cost_usd": 0.06051,
+      "batch_elapsed_seconds": 232.57,
+      "invalid_boxes": 17,
+      "region_count": 36,
+      "missing_continuation_fields": 9,
+      "item_count": 13,
+      "json_parsed": true,
+      "quality_gate_passed": false
+    },
+    {
+      "custom_id": "KPUR_2013_02_20_p1_overview",
+      "model": "claude-sonnet-5",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 4598,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 0
+        },
+        "output_tokens": 14035,
+        "output_tokens_details": {
+          "thinking_tokens": 6361
+        },
+        "service_tier": "batch",
+        "inference_geo": "global"
+      },
+      "cost_usd": 0.074773,
+      "batch_elapsed_seconds": 572.11,
+      "invalid_boxes": 21,
+      "region_count": 32,
+      "missing_continuation_fields": 4,
+      "item_count": 13,
+      "json_parsed": true,
+      "quality_gate_passed": false
+    }
+  ]
+}

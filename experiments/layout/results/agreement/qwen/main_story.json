@@ -1,0 +1,49 @@
+{
+  "case_id": "main_story",
+  "page_id": "KPUR_2013_07_31_p1",
+  "region_id": "r014",
+  "stratum": "disagreement",
+  "expected": "editorial_group",
+  "reference_status": "provisional assistant visual judgment",
+  "images": [
+    {
+      "path": "experiments/layout/results/agreement/qwen/main_story_overview.jpg",
+      "sha256": "d044c28fed65c58d67689b5ccc0b1894fcc920f08d40fd8159cc430b67863263",
+      "size": [
+        699,
+        1100
+      ]
+    },
+    {
+      "path": "experiments/layout/results/agreement/qwen/main_story_detail.jpg",
+      "sha256": "993630bdbf1f1d73430321f5894bd7b13ccbbe04e8068f12befccc2a820198f0",
+      "size": [
+        1041,
+        1210
+      ]
+    }
+  ],
+  "prompt": "The two images show a newspaper page overview and a detail crop.\nThe thin red rectangle identifies the target region; it is a machine overlay.\nDetermine the target's role in the newspaper using its contents AND context.\nChoose exactly one decision: advertisement, public_notice, pull_quote,\nheadline, multiple_headlines, body_text, photograph, editorial_group, uncertain.\nUse advertisement when a pictured person belongs to a commercial advertisement.\nUse pull_quote for a quotation displayed inside a story, not a new story title.\nUse multiple_headlines if the target merges headlines of distinct stories.\nUse editorial_group if it encloses an editorial story and/or sidebar with\nheadline and body components. Use uncertain if the images are insufficient.\nReturn only JSON with keys decision and evidence; evidence must be one short\nsentence describing visible evidence. Do not transcribe the article or invent\ncoordinates. No detector labels or reference answers are provided.",
+  "model": {
+    "repo": "mlx-community/Qwen3.5-4B-4bit",
+    "revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c"
+  },
+  "status": "completed",
+  "elapsed_seconds": 25.044702334096655,
+  "max_tokens": 192,
+  "thinking": "disabled",
+  "temperature": 0,
+  "stdout": "```json\n{\n  \"decision\": \"editorial_group\",\n  \"evidence\": \"The red rectangle encloses a complete news story, including a large headline, a photograph of a person, and multiple columns of body text.\"\n}\n```\n",
+  "stderr": "",
+  "parsed": {
+    "decision": "editorial_group",
+    "evidence": "The red rectangle encloses a complete news story, including a large headline, a photograph of a person, and multiple columns of body text."
+  },
+  "matches_provisional_reference": true,
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-vlm": "0.6.17",
+    "transformers": "5.16.1",
+    "pillow": "12.3.0"
+  }
+}

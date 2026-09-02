@@ -1,0 +1,98 @@
+[
+  {
+    "custom_id": "KPUR_2013_02_20_p1_overview",
+    "source_pdf": "pdfs/KPUR_2013_02_20.pdf",
+    "source_sha256": "33c1c39dac49c6a75a9a5877b652341df13e8f862b2b2b18a503f77a1635b63f",
+    "pdf_page_index": 1,
+    "render_dpi": 150,
+    "variant": "overview",
+    "images": [
+      {
+        "path": "tmp/pilot/KPUR_2013_02_20_p1_overview.png",
+        "bounds": [
+          0,
+          0,
+          1000,
+          1000
+        ]
+      }
+    ],
+    "visual_tokens": 4080,
+    "max_output_tokens": 32768
+  },
+  {
+    "custom_id": "KPUR_2013_02_20_p1_tiles",
+    "source_pdf": "pdfs/KPUR_2013_02_20.pdf",
+    "source_sha256": "33c1c39dac49c6a75a9a5877b652341df13e8f862b2b2b18a503f77a1635b63f",
+    "pdf_page_index": 1,
+    "render_dpi": 150,
+    "variant": "tiles",
+    "images": [
+      {
+        "path": "tmp/pilot/KPUR_2013_02_20_p1_overview.png",
+        "bounds": [
+          0,
+          0,
+          1000,
+          1000
+        ]
+      },
+      {
+        "path": "tmp/pilot/KPUR_2013_02_20_p1_tile1.png",
+        "bounds": [
+          0.0,
+          0.0,
+          525.11,
+          350.0
+        ]
+      },
+      {
+        "path": "tmp/pilot/KPUR_2013_02_20_p1_tile2.png",
+        "bounds": [
+          474.38,
+          0.0,
+          1000.0,
+          350.0
+        ]
+      },
+      {
+        "path": "tmp/pilot/KPUR_2013_02_20_p1_tile3.png",
+        "bounds": [
+          0.0,
+          316.45,
+          525.11,
+          683.23
+        ]
+      },
+      {
+        "path": "tmp/pilot/KPUR_2013_02_20_p1_tile4.png",
+        "bounds": [
+          474.38,
+          316.45,
+          1000.0,
+          683.23
+        ]
+      },
+      {
+        "path": "tmp/pilot/KPUR_2013_02_20_p1_tile5.png",
+        "bounds": [
+          0.0,
+          649.68,
+          525.11,
+          1000.0
+        ]
+      },
+      {
+        "path": "tmp/pilot/KPUR_2013_02_20_p1_tile6.png",
+        "bounds": [
+          474.38,
+          649.68,
+          1000.0,
+          1000.0
+        ]
+      }
+    ],
+    "visual_tokens": 12886,
+    "max_output_tokens": 32768
+  }
+]

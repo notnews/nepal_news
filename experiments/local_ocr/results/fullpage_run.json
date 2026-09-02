@@ -1,0 +1,44 @@
+{
+  "source_pdf": "pdfs/KPUR_2013_02_20.pdf",
+  "pdf_page_index": 1,
+  "runs": [
+    {
+      "dpi": 150,
+      "seconds": 20.036,
+      "characters": 7797,
+      "command": [
+        "tesseract",
+        "tmp/pilot/KPUR_2013_02_20_p1_150dpi.png",
+        "experiments/local_ocr/results/kantipur_frontpage_150dpi",
+        "-l",
+        "nep+eng",
+        "--oem",
+        "1",
+        "--psm",
+        "3",
+        "txt",
+        "tsv"
+      ],
+      "image_sha256": "e7a47b9d96aa0da55650b57f357dec8e9a288b4f8fc23623a2a78d096480d3d7"
+    },
+    {
+      "dpi": 300,
+      "seconds": 34.949,
+      "characters": 8633,
+      "command": [
+        "tesseract",
+        "tmp/pilot/KPUR_2013_02_20_p1_300dpi.png",
+        "experiments/local_ocr/results/kantipur_frontpage_300dpi",
+        "-l",
+        "nep+eng",
+        "--oem",
+        "1",
+        "--psm",
+        "3",
+        "txt",
+        "tsv"
+      ],
+      "image_sha256": "fad7d7a27cedd951df13105735d6f0a731e962f4e7731bb3eb71defa6b0d3388"
+    }
+  ]
+}

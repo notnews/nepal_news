@@ -1,0 +1,55 @@
+{
+  "pages": [
+    1,
+    3,
+    7
+  ],
+  "development_pages": [
+    1,
+    3
+  ],
+  "evaluation_pages": [
+    7
+  ],
+  "render_dpi": [
+    150,
+    300
+  ],
+  "models": {
+    "american": {
+      "revision": "f307e5cec224fed5977b080c4f170d89c93ae3ba",
+      "confidence": 0.01,
+      "nms_iou": 0.1,
+      "agnostic": true,
+      "input_hw": [
+        1280,
+        1280
+      ]
+    },
+    "paddle": {
+      "revision": "97d101e6db2642e162a1d05392d1b0231c91033e",
+      "confidence": 0.5,
+      "input_hw": [
+        800,
+        800
+      ]
+    }
+  },
+  "timeout_seconds": 120,
+  "api_budget_usd": 0,
+  "annotation_status": "Nine provisional assistant visual references, created before inspecting predictions; human verification pending",
+  "selection": "fixed page indices, not selected for model performance",
+  "evaluation_policy": "freeze these settings before opening page 7 overlays; no tuning on evaluation pages",
+  "reference_sha256": {
+    "KPUR_2013_02_20_p1.json": "1eb8dd7c5919f400289e00fe430f6e55b44305b2fc7f33d942927817f2db2a8f",
+    "KPUR_2013_02_20_p3.json": "3da1fbc41801e13d3af3ad77c3d9361874baa42df5437b9f325f4184e35cb40d",
+    "KPUR_2013_02_20_p7.json": "58be6ac183760bd3df293526224ddf3f8787d27b44c6ae669457445035f7e504",
+    "KPUR_2013_07_31_p1.json": "80b8ca1c3763879f1cd297de3d3368f32053e261dfd98f39f8fb681bc3dff306",
+    "KPUR_2013_07_31_p3.json": "9dd94ff2edc98570f93a5526459e521d42450356205fb197743a2c0f85cdf929",
+    "KPUR_2013_07_31_p7.json": "97ef213f2f5b75620f22ef64d05f796dbe7a5aeb09eb6f39ac10a8ba2cc7664c",
+    "TKP_2009_01_08_p1.json": "35ce89c719c95323bdfa20801688254bc9360fb5aecbbc4c0b264dc6b1eff2e5",
+    "TKP_2009_01_08_p3.json": "4b9ddb7a16905957fb36d08b6f4c88ebac408bac31707c66e2e0b912b4707911",
+    "TKP_2009_01_08_p7.json": "8ad978d1955babb945201c3a89413259c908e2825c59db4ad0928f7aa92d9b2a"
+  },
+  "metric_note": "Region matching plus coverage. Coverage added after development overlay inspection and before evaluation model runs."
+}

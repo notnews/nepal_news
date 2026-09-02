@@ -1,0 +1,49 @@
+{
+  "case_id": "english_quote",
+  "page_id": "TKP_2009_01_08_p1",
+  "region_id": "r013",
+  "stratum": "shared_error",
+  "expected": "pull_quote",
+  "reference_status": "provisional assistant visual judgment",
+  "images": [
+    {
+      "path": "experiments/layout/results/agreement/qwen/english_quote_overview.jpg",
+      "sha256": "602b57df0c15d1701b2bb98d00afd59c430277f25c616ad5bdbe7b8aa1e5e24a",
+      "size": [
+        765,
+        1100
+      ]
+    },
+    {
+      "path": "experiments/layout/results/agreement/qwen/english_quote_detail.jpg",
+      "sha256": "021170503d7977eb8309938eacf9c18643409173961001ccd96ea3fc76d092d0",
+      "size": [
+        406,
+        445
+      ]
+    }
+  ],
+  "prompt": "The two images show a newspaper page overview and a detail crop.\nThe thin red rectangle identifies the target region; it is a machine overlay.\nDetermine the target's role in the newspaper using its contents AND context.\nChoose exactly one decision: advertisement, public_notice, pull_quote,\nheadline, multiple_headlines, body_text, photograph, editorial_group, uncertain.\nUse advertisement when a pictured person belongs to a commercial advertisement.\nUse pull_quote for a quotation displayed inside a story, not a new story title.\nUse multiple_headlines if the target merges headlines of distinct stories.\nUse editorial_group if it encloses an editorial story and/or sidebar with\nheadline and body components. Use uncertain if the images are insufficient.\nReturn only JSON with keys decision and evidence; evidence must be one short\nsentence describing visible evidence. Do not transcribe the article or invent\ncoordinates. No detector labels or reference answers are provided.",
+  "model": {
+    "repo": "mlx-community/Qwen3.5-4B-4bit",
+    "revision": "0e7ffd5c629ef7719d4cbc04069232580bfa9d9c"
+  },
+  "status": "completed",
+  "elapsed_seconds": 18.57210854208097,
+  "max_tokens": 192,
+  "thinking": "disabled",
+  "temperature": 0,
+  "stdout": "```json\n{\n  \"decision\": \"pull_quote\",\n  \"evidence\": \"The red box encloses a quote attributed to the Prime Minister, which is a standard feature of pull quotes in news articles.\"\n}\n```\n",
+  "stderr": "",
+  "parsed": {
+    "decision": "pull_quote",
+    "evidence": "The red box encloses a quote attributed to the Prime Minister, which is a standard feature of pull quotes in news articles."
+  },
+  "matches_provisional_reference": true,
+  "versions": {
+    "mlx": "0.32.2",
+    "mlx-vlm": "0.6.17",
+    "transformers": "5.16.1",
+    "pillow": "12.3.0"
+  }
+}
