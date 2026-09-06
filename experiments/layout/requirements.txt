@@ -1,4 +1,4 @@
-Pillow==10.4.0
+Pillow==12.3.0
 numpy
 pdfplumber
 torch==2.14.0
