@@ -5,3 +5,8 @@ force-exclude = '/experiments/legacy/'
 [tool.isort]
 profile = "black"
 skip = [".venv"]
+
+[tool.codespell]
+builtin = "clear,rare,en-GB_to_en-US"
+skip = "*.pdf,*.png,*.jpg,*.jpeg,*.gif,*.csv,*.tsv,*.json,*.geojson,*.graphml,*.ipynb,*.html,*.svg,*.bib,*.bbl,*.lock,*.parquet,*.rda,*.rds,*.RData,*.dta,*.xlsx,*.xml,*.min.js,*.map,*.log,*.aux,./experiments/claude/results,./experiments/local_ocr/results,./experiments/text_layer/results"
+ignore-words-list = "labelled,toi"
